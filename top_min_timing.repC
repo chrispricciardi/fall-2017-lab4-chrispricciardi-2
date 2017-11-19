@@ -1,0 +1,599 @@
+Warning: Design 'top' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Worst timing paths might not be returned. (TIM-104)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 3
+        -greater_path 0.00
+        -max_paths 20
+Design : top
+Version: J-2014.09-SP5
+Date   : Sat Nov 18 22:12:37 2017
+****************************************
+
+Operating Conditions: nom_pvt   Library: vtvt_tsmc180
+Wire Load Model Mode: top
+
+  Startpoint: ADDER/sum_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[0]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[0]/q (dp_1)              111.07     111.07 r
+  U3/op (mux2_1)                         112.51     223.58 r
+  ADDER/sum_reg[0]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[0]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[1]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[1]/q (dp_1)              111.07     111.07 r
+  U4/op (mux2_1)                         112.51     223.58 r
+  ADDER/sum_reg[1]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[1]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[2]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[2]/q (dp_1)              111.07     111.07 r
+  U5/op (mux2_1)                         112.51     223.58 r
+  ADDER/sum_reg[2]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[2]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[3]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[3]/q (dp_1)              111.07     111.07 r
+  U6/op (mux2_1)                         112.51     223.58 r
+  ADDER/sum_reg[3]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[3]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[4]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[4]/q (dp_1)              111.07     111.07 r
+  U7/op (mux2_1)                         112.51     223.58 r
+  ADDER/sum_reg[4]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[4]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[5]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[5]/q (dp_1)              111.07     111.07 r
+  U8/op (mux2_1)                         112.51     223.58 r
+  ADDER/sum_reg[5]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[5]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[6]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[6]/q (dp_1)              111.07     111.07 r
+  U9/op (mux2_1)                         112.51     223.58 r
+  ADDER/sum_reg[6]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[6]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[7]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[7]/q (dp_1)              111.07     111.07 r
+  U10/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[7]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[7]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[8]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[8]/q (dp_1)              111.07     111.07 r
+  U11/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[8]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[8]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[9]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[9]/q (dp_1)              111.07     111.07 r
+  U12/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[9]/ip (dp_1)               0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[9]/ck (dp_1)               0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[10]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[10]/q (dp_1)             111.07     111.07 r
+  U13/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[10]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[10]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[11]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[11]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[11]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[11]/q (dp_1)             111.07     111.07 r
+  U14/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[11]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[11]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[12]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[12]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[12]/q (dp_1)             111.07     111.07 r
+  U15/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[12]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[12]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[13]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[13]/q (dp_1)             111.07     111.07 r
+  U16/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[13]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[13]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[14]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[14]/q (dp_1)             111.07     111.07 r
+  U17/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[14]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[14]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[15]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[15]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[15]/q (dp_1)             111.07     111.07 r
+  U18/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[15]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[15]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[16]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[16]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[16]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[16]/q (dp_1)             111.07     111.07 r
+  U19/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[16]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[16]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[17]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[17]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[17]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[17]/q (dp_1)             111.07     111.07 r
+  U20/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[17]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[17]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[18]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[18]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[18]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[18]/q (dp_1)             111.07     111.07 r
+  U21/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[18]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[18]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+  Startpoint: ADDER/sum_reg[19]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[19]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[19]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[19]/q (dp_1)             111.07     111.07 r
+  U22/op (mux2_1)                        112.51     223.58 r
+  ADDER/sum_reg[19]/ip (dp_1)              0.00     223.58 r
+  data arrival time                                 223.58
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[19]/ck (dp_1)              0.00       0.00 r
+  library hold time                        0.00       0.00
+  data required time                                  0.00
+  -----------------------------------------------------------
+  data required time                                  0.00
+  data arrival time                                -223.58
+  -----------------------------------------------------------
+  slack (MET)                                       223.58
+
+
+1

@@ -1,0 +1,838 @@
+[11/19 14:12:29     0s] Checking out Encounter license ...
+[11/19 14:12:29     0s] 	edsxl		DENIED:		"Encounter_Digital_Impl_Sys_XL"
+[11/19 14:12:29     0s] 	edsl		DENIED:		"Encounter_Digital_Impl_Sys_L"
+[11/19 14:12:29     0s] 	encblk		DENIED:		"Encounter_Block"
+[11/19 14:12:29     0s] 	fegxl		DENIED:		"First_Encounter_GXL"
+[11/19 14:12:29     0s] 	fexl		DENIED:		"FE_GPS"
+[11/19 14:12:29     0s] 	nru		DENIED:		"NanoRoute_Ultra"
+[11/19 14:12:29     0s] 	vdixl		DENIED:		"Virtuoso_Digital_Implem_XL"
+[11/19 14:12:29     0s] 	vdi		CHECKED OUT:	"Virtuoso_Digital_Implem"
+[11/19 14:12:29     0s] Virtuoso_Digital_Implem 14.2 license checkout succeeded.
+[11/19 14:12:29     0s] 	Maximum number of instance allowed (1 x 50000).
+[11/19 14:12:38     5s] *******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+[11/19 14:12:38     5s] @(#)CDS: Encounter v14.23-s044_1 (64bit) 03/20/2015 11:30 (Linux 2.6.18-194.el5)
+[11/19 14:12:38     5s] @(#)CDS: NanoRoute v14.23-s028 NR150319-1745/14_23-UB (database version 2.30, 255.6.1) {superthreading v1.25}
+[11/19 14:12:38     5s] @(#)CDS: CeltIC v14.23-s013_1 (64bit) 03/09/2015 04:15:07 (Linux 2.6.18-194.el5)
+[11/19 14:12:38     5s] @(#)CDS: AAE 14.23-s010 (64bit) 03/20/2015 (Linux 2.6.18-194.el5)
+[11/19 14:12:38     5s] @(#)CDS: CTE 14.23-s014_1 (64bit) Mar  9 2015 03:15:25 (Linux 2.6.18-194.el5)
+[11/19 14:12:38     5s] @(#)CDS: CPE v14.23-s032
+[11/19 14:12:38     5s] @(#)CDS: IQRC/TQRC 14.1.6-s260 (64bit) Mon Mar  2 11:26:49 PST 2015 (Linux 2.6.18-194.el5)
+[11/19 14:12:38     5s] @(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+[11/19 14:12:38     5s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[11/19 14:12:38     5s] @(#)CDS: RCDB 11.5
+[11/19 14:12:38     5s] --- Starting "Encounter v14.23-s044_1" on Sun Nov 19 14:12:38 2017 (mem=88.2M) ---
+[11/19 14:12:38     5s] --- Running on linuxlab006.seas.wustl.edu (x86_64 w/Linux 3.10.0-514.26.2.el7.x86_64) ---
+[11/19 14:12:38     5s] This version was compiled on Fri Mar 20 11:30:09 PDT 2015.
+[11/19 14:12:38     5s] Set DBUPerIGU to 1000.
+[11/19 14:12:38     5s] Set net toggle Scale Factor to 1.00
+[11/19 14:12:38     5s] Set Shrink Factor to 1.00000
+[11/19 14:12:38     5s] 
+[11/19 14:12:38     5s] **INFO:  MMMC transition support version v31-84 
+[11/19 14:12:38     5s] 
+[11/19 14:12:38     5s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[11/19 14:12:38     5s] <CMD> suppressMessage ENCEXT-2799
+[11/19 14:12:38     5s] <CMD> win
+[11/19 14:14:00    22s] <CMD> set init_gnd_net gnd!
+[11/19 14:14:00    22s] <CMD> set init_lef_file /project/linuxlab/cadence/vendors/VTVT/vtvt_tsmc180/vtvt_tsmc180_lef/vtvt_tsmc180.lef
+[11/19 14:14:00    22s] <CMD> set init_verilog top.syn.v
+[11/19 14:14:00    22s] <CMD> set init_mmmc_file Default.view
+[11/19 14:14:00    22s] <CMD> set init_pwr_net vdd!
+[11/19 14:14:00    22s] <CMD> init_design
+[11/19 14:14:00    22s] 
+[11/19 14:14:00    22s] Loading LEF file /project/linuxlab/cadence/vendors/VTVT/vtvt_tsmc180/vtvt_tsmc180_lef/vtvt_tsmc180.lef ...
+[11/19 14:14:00    22s] **WARN: (ENCLF-108):	There is no overlap layer defined in any LEF file
+[11/19 14:14:00    22s] so you are unable to create rectilinear partition in a hierarchical flow.
+[11/19 14:14:00    22s] Set DBUPerIGU to M2 pitch 810.
+[11/19 14:14:00    22s] 
+[11/19 14:14:00    22s] viaInitial starts at Sun Nov 19 14:14:00 2017
+viaInitial ends at Sun Nov 19 14:14:00 2017
+*** Begin netlist parsing (mem=328.5M) ***
+[11/19 14:14:00    22s] Reading netlist ...
+[11/19 14:14:00    22s] Backslashed names will retain backslash and a trailing blank character.
+[11/19 14:14:00    22s] Reading verilog netlist 'top.syn.v'
+[11/19 14:14:00    22s] **WARN: (ENCVL-346):	Module 'control' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[11/19 14:14:00    22s] Type 'man ENCVL-346' for more detail.
+[11/19 14:14:00    22s] Undeclared bus address in module control ... created as [3:0].
+[11/19 14:14:00    22s] **WARN: (ENCVL-346):	Module 'mult' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[11/19 14:14:00    22s] Type 'man ENCVL-346' for more detail.
+[11/19 14:14:00    22s] Undeclared bus product in module mult ... created as [31:0].
+[11/19 14:14:00    22s] Undeclared bus A in module mult ... created as [31:0].
+[11/19 14:14:00    22s] Undeclared bus B in module mult ... created as [31:0].
+[11/19 14:14:00    22s] **WARN: (ENCVL-346):	Module 'ps_reg' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[11/19 14:14:00    22s] Type 'man ENCVL-346' for more detail.
+[11/19 14:14:00    22s] Undeclared bus sum in module ps_reg ... created as [31:0].
+[11/19 14:14:00    22s] Undeclared bus ps in module ps_reg ... created as [31:0].
+[11/19 14:14:00    22s] **WARN: (ENCVL-346):	Module 'fs_reg' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[11/19 14:14:00    22s] Type 'man ENCVL-346' for more detail.
+[11/19 14:14:00    22s] Undeclared bus ps in module fs_reg ... created as [31:0].
+[11/19 14:14:00    22s] **WARN: (ENCVL-346):	Module 'srama' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[11/19 14:14:00    22s] Type 'man ENCVL-346' for more detail.
+[11/19 14:14:00    22s] Undeclared bus wdata in module srama ... created as [31:0].
+[11/19 14:14:00    22s] Undeclared bus address in module srama ... created as [3:0].
+[11/19 14:14:00    22s] Undeclared bus rdata in module srama ... created as [31:0].
+[11/19 14:14:00    22s] **WARN: (ENCVL-346):	Module 'sramb' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[11/19 14:14:00    22s] Type 'man ENCVL-346' for more detail.
+[11/19 14:14:00    22s] Undeclared bus wdata in module sramb ... created as [31:0].
+[11/19 14:14:00    22s] Undeclared bus address in module sramb ... created as [3:0].
+[11/19 14:14:00    22s] Undeclared bus rdata in module sramb ... created as [31:0].
+[11/19 14:14:00    22s] **WARN: (ENCVL-346):	Module 'mr_reg' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[11/19 14:14:00    22s] Type 'man ENCVL-346' for more detail.
+[11/19 14:14:00    22s] Undeclared bus product in module mr_reg ... created as [31:0].
+[11/19 14:14:00    22s] Undeclared bus PRODUCT in module mr_reg ... created as [31:0].
+[11/19 14:14:00    22s] 
+[11/19 14:14:00    22s] *** Memory Usage v#3 (Current mem = 328.535M, initial mem = 88.223M) ***
+[11/19 14:14:00    22s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=328.5M) ***
+[11/19 14:14:00    22s] Top level cell is top.
+[11/19 14:14:00    22s] Loading view definition file from Default.view
+[11/19 14:14:00    22s] Reading vtvt_tsmc180 timing library '/project/linuxlab/cadence/vendors/VTVT/vtvt_tsmc180/Synopsys_Libraries/libs/vtvt_tsmc180.lib' ...
+[11/19 14:14:00    22s] Read 84 cells in library 'vtvt_tsmc180' 
+[11/19 14:14:00    22s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.37min, fe_real=1.52min, fe_mem=341.5M) ***
+[11/19 14:14:00    22s] **WARN: (ENCDB-2504):	Cell 'mult' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[11/19 14:14:00    22s] **WARN: (ENCDB-2504):	Cell 'control' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[11/19 14:14:00    22s] **WARN: (ENCDB-2504):	Cell 'mr_reg' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[11/19 14:14:00    22s] **WARN: (ENCDB-2504):	Cell 'sramb' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[11/19 14:14:00    22s] **WARN: (ENCDB-2504):	Cell 'srama' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[11/19 14:14:00    22s] **WARN: (ENCDB-2504):	Cell 'fs_reg' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[11/19 14:14:00    22s] **WARN: (ENCDB-2504):	Cell 'ps_reg' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[11/19 14:14:00    22s] Cell 'control' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'a_in' of cell 'control' as output for net 'a_in' in module 'top'.
+[11/19 14:14:00    22s] Cell 'control' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'b_in' of cell 'control' as output for net 'b_in' in module 'top'.
+[11/19 14:14:00    22s] Cell 'control' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'add_enable' of cell 'control' as output for net 'add_enable' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[31]' of cell 'mr_reg' as output for net 'PRODUCT[31]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[30]' of cell 'mr_reg' as output for net 'PRODUCT[30]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[29]' of cell 'mr_reg' as output for net 'PRODUCT[29]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[28]' of cell 'mr_reg' as output for net 'PRODUCT[28]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[27]' of cell 'mr_reg' as output for net 'PRODUCT[27]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[26]' of cell 'mr_reg' as output for net 'PRODUCT[26]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[25]' of cell 'mr_reg' as output for net 'PRODUCT[25]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[24]' of cell 'mr_reg' as output for net 'PRODUCT[24]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[23]' of cell 'mr_reg' as output for net 'PRODUCT[23]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[22]' of cell 'mr_reg' as output for net 'PRODUCT[22]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[21]' of cell 'mr_reg' as output for net 'PRODUCT[21]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[20]' of cell 'mr_reg' as output for net 'PRODUCT[20]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[19]' of cell 'mr_reg' as output for net 'PRODUCT[19]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[18]' of cell 'mr_reg' as output for net 'PRODUCT[18]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[17]' of cell 'mr_reg' as output for net 'PRODUCT[17]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[16]' of cell 'mr_reg' as output for net 'PRODUCT[16]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[15]' of cell 'mr_reg' as output for net 'PRODUCT[15]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[14]' of cell 'mr_reg' as output for net 'PRODUCT[14]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[13]' of cell 'mr_reg' as output for net 'PRODUCT[13]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[12]' of cell 'mr_reg' as output for net 'PRODUCT[12]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[11]' of cell 'mr_reg' as output for net 'PRODUCT[11]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[10]' of cell 'mr_reg' as output for net 'PRODUCT[10]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[9]' of cell 'mr_reg' as output for net 'PRODUCT[9]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[8]' of cell 'mr_reg' as output for net 'PRODUCT[8]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[7]' of cell 'mr_reg' as output for net 'PRODUCT[7]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[6]' of cell 'mr_reg' as output for net 'PRODUCT[6]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[5]' of cell 'mr_reg' as output for net 'PRODUCT[5]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[4]' of cell 'mr_reg' as output for net 'PRODUCT[4]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[3]' of cell 'mr_reg' as output for net 'PRODUCT[3]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[2]' of cell 'mr_reg' as output for net 'PRODUCT[2]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[1]' of cell 'mr_reg' as output for net 'PRODUCT[1]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'PRODUCT[0]' of cell 'mr_reg' as output for net 'PRODUCT[0]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[31]' of cell 'srama' as output for net 'a[31]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[30]' of cell 'srama' as output for net 'a[30]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[29]' of cell 'srama' as output for net 'a[29]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[28]' of cell 'srama' as output for net 'a[28]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[27]' of cell 'srama' as output for net 'a[27]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[26]' of cell 'srama' as output for net 'a[26]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[25]' of cell 'srama' as output for net 'a[25]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[24]' of cell 'srama' as output for net 'a[24]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[23]' of cell 'srama' as output for net 'a[23]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[22]' of cell 'srama' as output for net 'a[22]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[21]' of cell 'srama' as output for net 'a[21]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[20]' of cell 'srama' as output for net 'a[20]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[19]' of cell 'srama' as output for net 'a[19]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[18]' of cell 'srama' as output for net 'a[18]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[17]' of cell 'srama' as output for net 'a[17]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[16]' of cell 'srama' as output for net 'a[16]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[15]' of cell 'srama' as output for net 'a[15]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[14]' of cell 'srama' as output for net 'a[14]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[13]' of cell 'srama' as output for net 'a[13]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[12]' of cell 'srama' as output for net 'a[12]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[11]' of cell 'srama' as output for net 'a[11]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[10]' of cell 'srama' as output for net 'a[10]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[9]' of cell 'srama' as output for net 'a[9]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[8]' of cell 'srama' as output for net 'a[8]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[7]' of cell 'srama' as output for net 'a[7]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[6]' of cell 'srama' as output for net 'a[6]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[5]' of cell 'srama' as output for net 'a[5]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[4]' of cell 'srama' as output for net 'a[4]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[3]' of cell 'srama' as output for net 'a[3]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[2]' of cell 'srama' as output for net 'a[2]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[1]' of cell 'srama' as output for net 'a[1]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'srama' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[0]' of cell 'srama' as output for net 'a[0]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[31]' of cell 'sramb' as output for net 'b[31]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[30]' of cell 'sramb' as output for net 'b[30]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[29]' of cell 'sramb' as output for net 'b[29]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[28]' of cell 'sramb' as output for net 'b[28]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[27]' of cell 'sramb' as output for net 'b[27]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[26]' of cell 'sramb' as output for net 'b[26]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[25]' of cell 'sramb' as output for net 'b[25]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[24]' of cell 'sramb' as output for net 'b[24]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[23]' of cell 'sramb' as output for net 'b[23]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[22]' of cell 'sramb' as output for net 'b[22]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[21]' of cell 'sramb' as output for net 'b[21]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[20]' of cell 'sramb' as output for net 'b[20]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[19]' of cell 'sramb' as output for net 'b[19]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[18]' of cell 'sramb' as output for net 'b[18]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[17]' of cell 'sramb' as output for net 'b[17]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[16]' of cell 'sramb' as output for net 'b[16]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[15]' of cell 'sramb' as output for net 'b[15]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[14]' of cell 'sramb' as output for net 'b[14]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[13]' of cell 'sramb' as output for net 'b[13]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[12]' of cell 'sramb' as output for net 'b[12]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[11]' of cell 'sramb' as output for net 'b[11]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[10]' of cell 'sramb' as output for net 'b[10]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[9]' of cell 'sramb' as output for net 'b[9]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[8]' of cell 'sramb' as output for net 'b[8]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[7]' of cell 'sramb' as output for net 'b[7]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[6]' of cell 'sramb' as output for net 'b[6]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[5]' of cell 'sramb' as output for net 'b[5]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[4]' of cell 'sramb' as output for net 'b[4]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[3]' of cell 'sramb' as output for net 'b[3]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[2]' of cell 'sramb' as output for net 'b[2]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[1]' of cell 'sramb' as output for net 'b[1]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'rdata[0]' of cell 'sramb' as output for net 'b[0]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mult' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'done' of cell 'mult' as output for net 'done' in module 'top'.
+[11/19 14:14:00    22s] Cell 'ps_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps_in' of cell 'ps_reg' as output for net 'ps_in' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'fs_in' of cell 'fs_reg' as output for net 'fs_in' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'mr_in' of cell 'mr_reg' as output for net 'mr_in' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'write' of cell 'sramb' as output for net 'write' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mult' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'multiply_enable' of cell 'mult' as output for net 'multiply_enable' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'address[3]' of cell 'sramb' as output for net 'address[3]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'address[2]' of cell 'sramb' as output for net 'address[2]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'address[1]' of cell 'sramb' as output for net 'address[1]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'address[0]' of cell 'sramb' as output for net 'address[0]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[31]' of cell 'mr_reg' as output for net 'product[31]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[30]' of cell 'mr_reg' as output for net 'product[30]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[29]' of cell 'mr_reg' as output for net 'product[29]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[28]' of cell 'mr_reg' as output for net 'product[28]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[27]' of cell 'mr_reg' as output for net 'product[27]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[26]' of cell 'mr_reg' as output for net 'product[26]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[25]' of cell 'mr_reg' as output for net 'product[25]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[24]' of cell 'mr_reg' as output for net 'product[24]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[23]' of cell 'mr_reg' as output for net 'product[23]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[22]' of cell 'mr_reg' as output for net 'product[22]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[21]' of cell 'mr_reg' as output for net 'product[21]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[20]' of cell 'mr_reg' as output for net 'product[20]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[19]' of cell 'mr_reg' as output for net 'product[19]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[18]' of cell 'mr_reg' as output for net 'product[18]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[17]' of cell 'mr_reg' as output for net 'product[17]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[16]' of cell 'mr_reg' as output for net 'product[16]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[15]' of cell 'mr_reg' as output for net 'product[15]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[14]' of cell 'mr_reg' as output for net 'product[14]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[13]' of cell 'mr_reg' as output for net 'product[13]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[12]' of cell 'mr_reg' as output for net 'product[12]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[11]' of cell 'mr_reg' as output for net 'product[11]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[10]' of cell 'mr_reg' as output for net 'product[10]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[9]' of cell 'mr_reg' as output for net 'product[9]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[8]' of cell 'mr_reg' as output for net 'product[8]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[7]' of cell 'mr_reg' as output for net 'product[7]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[6]' of cell 'mr_reg' as output for net 'product[6]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[5]' of cell 'mr_reg' as output for net 'product[5]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[4]' of cell 'mr_reg' as output for net 'product[4]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[3]' of cell 'mr_reg' as output for net 'product[3]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[2]' of cell 'mr_reg' as output for net 'product[2]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[1]' of cell 'mr_reg' as output for net 'product[1]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'mr_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'product[0]' of cell 'mr_reg' as output for net 'product[0]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[31]' of cell 'fs_reg' as output for net 'ps[31]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[30]' of cell 'fs_reg' as output for net 'ps[30]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[29]' of cell 'fs_reg' as output for net 'ps[29]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[28]' of cell 'fs_reg' as output for net 'ps[28]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[27]' of cell 'fs_reg' as output for net 'ps[27]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[26]' of cell 'fs_reg' as output for net 'ps[26]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[25]' of cell 'fs_reg' as output for net 'ps[25]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[24]' of cell 'fs_reg' as output for net 'ps[24]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[23]' of cell 'fs_reg' as output for net 'ps[23]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[22]' of cell 'fs_reg' as output for net 'ps[22]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[21]' of cell 'fs_reg' as output for net 'ps[21]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[20]' of cell 'fs_reg' as output for net 'ps[20]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[19]' of cell 'fs_reg' as output for net 'ps[19]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[18]' of cell 'fs_reg' as output for net 'ps[18]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[17]' of cell 'fs_reg' as output for net 'ps[17]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[16]' of cell 'fs_reg' as output for net 'ps[16]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[15]' of cell 'fs_reg' as output for net 'ps[15]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[14]' of cell 'fs_reg' as output for net 'ps[14]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[13]' of cell 'fs_reg' as output for net 'ps[13]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[12]' of cell 'fs_reg' as output for net 'ps[12]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[11]' of cell 'fs_reg' as output for net 'ps[11]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[10]' of cell 'fs_reg' as output for net 'ps[10]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[9]' of cell 'fs_reg' as output for net 'ps[9]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[8]' of cell 'fs_reg' as output for net 'ps[8]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[7]' of cell 'fs_reg' as output for net 'ps[7]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[6]' of cell 'fs_reg' as output for net 'ps[6]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[5]' of cell 'fs_reg' as output for net 'ps[5]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[4]' of cell 'fs_reg' as output for net 'ps[4]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[3]' of cell 'fs_reg' as output for net 'ps[3]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[2]' of cell 'fs_reg' as output for net 'ps[2]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[1]' of cell 'fs_reg' as output for net 'ps[1]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'fs_reg' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ps[0]' of cell 'fs_reg' as output for net 'ps[0]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[31]' of cell 'sramb' as output for net 'wdata[31]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[30]' of cell 'sramb' as output for net 'wdata[30]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[29]' of cell 'sramb' as output for net 'wdata[29]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[28]' of cell 'sramb' as output for net 'wdata[28]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[27]' of cell 'sramb' as output for net 'wdata[27]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[26]' of cell 'sramb' as output for net 'wdata[26]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[25]' of cell 'sramb' as output for net 'wdata[25]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[24]' of cell 'sramb' as output for net 'wdata[24]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[23]' of cell 'sramb' as output for net 'wdata[23]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[22]' of cell 'sramb' as output for net 'wdata[22]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[21]' of cell 'sramb' as output for net 'wdata[21]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[20]' of cell 'sramb' as output for net 'wdata[20]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[19]' of cell 'sramb' as output for net 'wdata[19]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[18]' of cell 'sramb' as output for net 'wdata[18]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[17]' of cell 'sramb' as output for net 'wdata[17]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[16]' of cell 'sramb' as output for net 'wdata[16]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[15]' of cell 'sramb' as output for net 'wdata[15]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[14]' of cell 'sramb' as output for net 'wdata[14]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[13]' of cell 'sramb' as output for net 'wdata[13]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[12]' of cell 'sramb' as output for net 'wdata[12]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[11]' of cell 'sramb' as output for net 'wdata[11]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[10]' of cell 'sramb' as output for net 'wdata[10]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[9]' of cell 'sramb' as output for net 'wdata[9]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[8]' of cell 'sramb' as output for net 'wdata[8]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[7]' of cell 'sramb' as output for net 'wdata[7]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[6]' of cell 'sramb' as output for net 'wdata[6]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[5]' of cell 'sramb' as output for net 'wdata[5]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[4]' of cell 'sramb' as output for net 'wdata[4]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[3]' of cell 'sramb' as output for net 'wdata[3]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[2]' of cell 'sramb' as output for net 'wdata[2]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[1]' of cell 'sramb' as output for net 'wdata[1]' in module 'top'.
+[11/19 14:14:00    22s] Cell 'sramb' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'wdata[0]' of cell 'sramb' as output for net 'wdata[0]' in module 'top'.
+[11/19 14:14:00    22s] Found empty module (mult).
+[11/19 14:14:00    22s] Found empty module (control).
+[11/19 14:14:00    22s] Found empty module (mr_reg).
+[11/19 14:14:00    22s] Found empty module (sramb).
+[11/19 14:14:00    22s] Found empty module (srama).
+[11/19 14:14:00    22s] Found empty module (fs_reg).
+[11/19 14:14:00    22s] Found empty module (ps_reg).
+[11/19 14:14:00    22s] Starting recursive module instantiation check.
+[11/19 14:14:00    22s] No recursion found.
+[11/19 14:14:00    22s] Term dir updated for 0 vinsts of 7 cells.
+[11/19 14:14:00    22s] Building hierarchical netlist for Cell top ...
+[11/19 14:14:00    22s] *** Netlist is unique.
+[11/19 14:14:00    22s] ** info: there are 93 modules.
+[11/19 14:14:00    22s] ** info: there are 299 stdCell insts.
+[11/19 14:14:00    22s] 
+[11/19 14:14:00    22s] *** Memory Usage v#3 (Current mem = 343.289M, initial mem = 88.223M) ***
+[11/19 14:14:00    22s] Generated pitch 1.215 in metal6 is different from 1.62 defined in technology file in preferred direction.
+[11/19 14:14:00    22s] Set Default Net Delay as 1000 ps.
+[11/19 14:14:00    22s] Set Default Net Load as 0.5 pF. 
+[11/19 14:14:00    22s] Set Input Pin Transition Delay as 0.1 ps.
+[11/19 14:14:01    22s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[11/19 14:14:01    22s] Type 'man ENCEXT-2773' for more detail.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[11/19 14:14:01    22s] Type 'man ENCEXT-2773' for more detail.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[11/19 14:14:01    22s] Type 'man ENCEXT-2773' for more detail.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[11/19 14:14:01    22s] Type 'man ENCEXT-2773' for more detail.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[11/19 14:14:01    22s] Type 'man ENCEXT-2773' for more detail.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[11/19 14:14:01    22s] Type 'man ENCEXT-2773' for more detail.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.08 will be used.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.08 will be used.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.08 will be used.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.08 will be used.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.07 will be used.
+[11/19 14:14:01    22s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.03 will be used.
+[11/19 14:14:01    22s] Summary of Active RC-Corners : 
+[11/19 14:14:01    22s]  
+[11/19 14:14:01    22s]  Analysis View: constraint_rule
+[11/19 14:14:01    22s]     RC-Corner Name        : default_rc_corner
+[11/19 14:14:01    22s]     RC-Corner Index       : 0
+[11/19 14:14:01    22s]     RC-Corner Temperature : 25 Celsius
+[11/19 14:14:01    22s]     RC-Corner Cap Table   : ''
+[11/19 14:14:01    22s]     RC-Corner PreRoute Res Factor         : 1
+[11/19 14:14:01    22s]     RC-Corner PreRoute Cap Factor         : 1
+[11/19 14:14:01    22s]     RC-Corner PostRoute Res Factor        : 1
+[11/19 14:14:01    22s]     RC-Corner PostRoute Cap Factor        : 1
+[11/19 14:14:01    22s]     RC-Corner PostRoute XCap Factor       : 1
+[11/19 14:14:01    22s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+[11/19 14:14:01    22s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+[11/19 14:14:01    22s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[11/19 14:14:01    22s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[11/19 14:14:01    22s] *Info: initialize multi-corner CTS.
+[11/19 14:14:01    22s] CTE reading timing constraint file 'top.sdc' ...
+[11/19 14:14:01    22s] Current (total cpu=0:00:22.5, real=0:01:32, peak res=383.8M, current mem=437.4M)
+[11/19 14:14:01    22s] INFO (CTE): Constraints read successfully.
+[11/19 14:14:01    22s] WARNING (CTE-25): Line: 9 of File top.sdc : Skipped unsupported command: set_units
+[11/19 14:14:01    22s] 
+[11/19 14:14:01    22s] 
+[11/19 14:14:01    22s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=398.4M, current mem=450.9M)
+[11/19 14:14:01    22s] Current (total cpu=0:00:22.6, real=0:01:32, peak res=398.4M, current mem=450.9M)
+[11/19 14:14:01    22s] Total number of combinational cells: 60
+[11/19 14:14:01    22s] Total number of sequential cells: 20
+[11/19 14:14:01    22s] Total number of tristate cells: 4
+[11/19 14:14:01    22s] Total number of level shifter cells: 0
+[11/19 14:14:01    22s] Total number of power gating cells: 0
+[11/19 14:14:01    22s] Total number of isolation cells: 0
+[11/19 14:14:01    22s] Total number of power switch cells: 0
+[11/19 14:14:01    22s] Total number of pulse generator cells: 0
+[11/19 14:14:01    22s] Total number of always on buffers: 0
+[11/19 14:14:01    22s] Total number of retention cells: 0
+[11/19 14:14:01    22s] List of usable buffers: buf_2 buf_1 buf_4 cd_8
+[11/19 14:14:01    22s] Total number of usable buffers: 4
+[11/19 14:14:01    22s] List of unusable buffers:
+[11/19 14:14:01    22s] Total number of unusable buffers: 0
+[11/19 14:14:01    22s] List of usable inverters: inv_2 inv_1 inv_4
+[11/19 14:14:01    22s] Total number of usable inverters: 3
+[11/19 14:14:01    22s] List of unusable inverters:
+[11/19 14:14:01    22s] Total number of unusable inverters: 0
+[11/19 14:14:01    22s] List of identified usable delay cells: cd_12 cd_16
+[11/19 14:14:01    22s] Total number of identified usable delay cells: 2
+[11/19 14:14:01    22s] List of identified unusable delay cells:
+[11/19 14:14:01    22s] Total number of identified unusable delay cells: 0
+[11/19 14:14:01    22s] 
+[11/19 14:14:01    22s] *** Summary of all messages that are not suppressed in this session:
+[11/19 14:14:01    22s] Severity  ID               Count  Summary                                  
+[11/19 14:14:01    22s] WARNING   ENCLF-108            1  There is no overlap layer defined in any...
+[11/19 14:14:01    22s] WARNING   ENCEXT-2766          6  Sheet resistance for layer %s is not def...
+[11/19 14:14:01    22s] WARNING   ENCEXT-2773          6  The via resistance between layers %s and...
+[11/19 14:14:01    22s] WARNING   ENCVL-346            7  Module '%s' is instantiated in the netli...
+[11/19 14:14:01    22s] WARNING   ENCDB-2504           7  Cell '%s' is instantiated in the Verilog...
+[11/19 14:14:01    22s] *** Message Summary: 27 warning(s), 0 error(s)
+[11/19 14:14:01    22s] 
+[11/19 14:14:03    23s] <CMD> fit
+[11/19 14:14:07    23s] <CMD> getIoFlowFlag
+[11/19 14:20:08    64s] <CMD> setIoFlowFlag 0
+[11/19 14:20:08    64s] <CMD> floorPlan -site CoreSite -r 0.972182741117 0.699995 10.0 10.0 10.0 10.0
+[11/19 14:20:08    64s] Snap core to left to manufacture grid: 9.9900.
+[11/19 14:20:08    64s] Snap core to bottom to manufacture grid: 9.9900.
+[11/19 14:20:08    64s] Snap core to right to manufacture grid: 9.9900.
+[11/19 14:20:08    64s] Snap core to top to manufacture grid: 9.9900.
+[11/19 14:20:08    64s] Adjusting Core to Left to: 10.5300. Core to Bottom to: 10.5300.
+[11/19 14:20:08    64s] Generated pitch 1.215 in metal6 is different from 1.62 defined in technology file in preferred direction.
+[11/19 14:20:08    64s] **WARN: (ENCFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[11/19 14:20:08    64s] <CMD> uiSetTool select
+[11/19 14:20:08    64s] <CMD> getIoFlowFlag
+[11/19 14:20:08    64s] <CMD> fit
+[11/19 14:20:42    68s] <CMD> clearGlobalNets
+[11/19 14:20:42    68s] <CMD> globalNetConnect gnd! -type pgpin -pin gnd! -inst * -module {}
+[11/19 14:20:45    68s] <CMD> clearGlobalNets
+[11/19 14:20:45    68s] <CMD> globalNetConnect gnd! -type pgpin -pin gnd! -inst * -module {}
+[11/19 14:20:45    68s] <CMD> globalNetConnect vdd! -type pgpin -pin vdd! -inst * -module {}
+[11/19 14:20:46    68s] <CMD> clearGlobalNets
+[11/19 14:20:46    68s] <CMD> globalNetConnect gnd! -type pgpin -pin gnd! -inst * -module {}
+[11/19 14:20:46    68s] <CMD> globalNetConnect vdd! -type pgpin -pin vdd! -inst * -module {}
+[11/19 14:20:59    70s] <CMD> set sprCreateIeRingNets {}
+[11/19 14:20:59    70s] <CMD> set sprCreateIeRingLayers {}
+[11/19 14:20:59    70s] <CMD> set sprCreateIeRingWidth 1.0
+[11/19 14:20:59    70s] <CMD> set sprCreateIeRingSpacing 1.0
+[11/19 14:20:59    70s] <CMD> set sprCreateIeRingOffset 1.0
+[11/19 14:20:59    70s] <CMD> set sprCreateIeRingThreshold 1.0
+[11/19 14:20:59    70s] <CMD> set sprCreateIeRingJogDistance 1.0
+[11/19 14:21:09    71s] <CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -stacked_via_top_layer metal6 -type core_rings -jog_distance 0.81 -threshold 0.81 -nets {gnd! vdd!} -follow core -stacked_via_bottom_layer metal1 -layer {bottom metal1 top metal1 right metal2 left metal2} -width 0.45 -spacing 0.45 -offset 0.81
+[11/19 14:21:09    71s] 
+[11/19 14:21:09    71s] The power planner created 8 wires.
+[11/19 14:21:09    71s] *** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 460.9M) ***
+[11/19 14:21:24    74s] <CMD> getPinAssignMode -pinEditInBatch -quiet
+[11/19 14:22:20    80s] <CMD> setPinAssignMode -pinEditInBatch true
+[11/19 14:22:20    80s] <CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 1 -spreadType center -spacing 0.81 -pin {clk reset}
+[11/19 14:22:20    80s] Successfully spread [2] pins.
+[11/19 14:22:20    80s] editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 460.9M).
+[11/19 14:22:20    80s] <CMD> setPinAssignMode -pinEditInBatch false
+[11/19 14:22:27    81s] <CMD> getPinAssignMode -pinEditInBatch -quiet
+[11/19 14:22:34    82s] <CMD> setPinAssignMode -pinEditInBatch true
+[11/19 14:22:34    82s] <CMD> editPin -pinWidth 0.27 -pinDepth 0.27 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 1 -spreadType center -spacing 0.81 -pin {clk reset}
+[11/19 14:22:34    82s] Successfully spread [2] pins.
+[11/19 14:22:34    82s] editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 460.9M).
+[11/19 14:22:34    82s] <CMD> setPinAssignMode -pinEditInBatch true
+[11/19 14:22:34    82s] <CMD> editPin -pinWidth 0.27 -pinDepth 0.27 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 1 -spreadType center -spacing 0.81 -pin {clk reset}
+[11/19 14:22:34    82s] Successfully spread [2] pins.
+[11/19 14:22:34    82s] editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 460.9M).
+[11/19 14:22:34    82s] <CMD> setPinAssignMode -pinEditInBatch false
+[11/19 14:23:00    86s] <CMD> sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { metal1 metal6 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { metal1 metal6 } -nets { gnd! vdd! } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { metal1 metal6 }
+[11/19 14:23:00    86s] *** Begin SPECIAL ROUTE on Sun Nov 19 14:23:00 2017 ***
+[11/19 14:23:00    86s] SPECIAL ROUTE ran on directory: /home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2
+[11/19 14:23:00    86s] SPECIAL ROUTE ran on machine: linuxlab006.seas.wustl.edu (Linux 3.10.0-514.26.2.el7.x86_64 Xeon 3.20Ghz)
+[11/19 14:23:00    86s] 
+[11/19 14:23:00    86s] Begin option processing ...
+[11/19 14:23:00    86s] srouteConnectPowerBump set to false
+[11/19 14:23:00    86s] routeSelectNet set to "gnd! vdd!"
+[11/19 14:23:00    86s] routeSpecial set to true
+[11/19 14:23:00    86s] srouteBlockPin set to "useLef"
+[11/19 14:23:00    86s] srouteBottomLayerLimit set to 1
+[11/19 14:23:00    86s] srouteBottomTargetLayerLimit set to 1
+[11/19 14:23:00    86s] srouteConnectConverterPin set to false
+[11/19 14:23:00    86s] srouteCrossoverViaBottomLayer set to 1
+[11/19 14:23:00    86s] srouteCrossoverViaTopLayer set to 6
+[11/19 14:23:00    86s] srouteFloatingStripeTarget set to "blockring padring ring stripe ringpin blockpin followpin"
+[11/19 14:23:00    86s] srouteFollowCorePinEnd set to 3
+[11/19 14:23:00    86s] srouteJogControl set to "preferWithChanges differentLayer"
+[11/19 14:23:00    86s] sroutePadPinAllPorts set to true
+[11/19 14:23:00    86s] sroutePreserveExistingRoutes set to true
+[11/19 14:23:00    86s] srouteRoutePowerBarPortOnBothDir set to true
+[11/19 14:23:00    86s] srouteStopBlockPin set to "nearestTarget"
+[11/19 14:23:00    86s] srouteTopLayerLimit set to 6
+[11/19 14:23:00    86s] srouteTopTargetLayerLimit set to 6
+[11/19 14:23:00    86s] End option processing: cpu: 0:00:00, real: 0:00:00, peak: 1072.00 megs.
+[11/19 14:23:00    86s] 
+[11/19 14:23:00    86s] Reading DB technology information...
+[11/19 14:23:00    86s] Finished reading DB technology information.
+[11/19 14:23:00    86s] Reading floorplan and netlist information...
+[11/19 14:23:00    86s] Finished reading floorplan and netlist information.
+[11/19 14:23:00    86s] Read in 12 layers, 6 routing layers, 0 overlap layer
+[11/19 14:23:00    86s] Read in 85 macros, 9 used
+[11/19 14:23:00    86s] Read in 9 components
+[11/19 14:23:00    86s]   9 core components: 9 unplaced, 0 placed, 0 fixed
+[11/19 14:23:00    86s] Read in 2 physical pins
+[11/19 14:23:00    86s]   2 physical pins: 0 unplaced, 2 placed, 0 fixed
+[11/19 14:23:00    86s] Read in 2 nets
+[11/19 14:23:00    86s] Read in 2 special nets, 2 routed
+[11/19 14:23:00    86s] Read in 20 terminals
+[11/19 14:23:00    86s] 2 nets selected.
+[11/19 14:23:00    86s] 
+[11/19 14:23:00    86s] Begin power routing ...
+[11/19 14:23:00    86s] Bad via found: M1_N
+[11/19 14:23:00    86s] Bad via found: M1_P
+[11/19 14:23:00    86s] Bad via found: M1_POLY
+[11/19 14:23:00    86s] Bad via found: NTAP
+[11/19 14:23:00    86s] **WARN: (ENCSR-1234):	Find 4 vias whose layer defination is incorrect before power routing.
+[11/19 14:23:00    86s] **WARN: (ENCSR-1254):	Cannot find any block pin of net vdd!. Check netlist, or change option to include the pin.
+[11/19 14:23:00    86s] **WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net vdd!. Change routing area or layer to include the expected pin, or check netlist, or change port class in LEF file.
+[11/19 14:23:00    86s] Type 'man ENCSR-1256' for more detail.
+[11/19 14:23:00    86s] Cannot find any AREAIO class pad pin of net vdd!. Check net list, or change port class in LEF file, or change option to include pin in given range.
+[11/19 14:23:00    86s] **WARN: (ENCSR-1254):	Cannot find any block pin of net gnd!. Check netlist, or change option to include the pin.
+[11/19 14:23:00    86s] **WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net gnd!. Change routing area or layer to include the expected pin, or check netlist, or change port class in LEF file.
+[11/19 14:23:00    86s] Type 'man ENCSR-1256' for more detail.
+[11/19 14:23:00    86s] Cannot find any AREAIO class pad pin of net gnd!. Check net list, or change port class in LEF file, or change option to include pin in given range.
+[11/19 14:23:00    86s] CPU time for FollowPin 0 seconds
+[11/19 14:23:00    86s] CPU time for FollowPin 0 seconds
+[11/19 14:23:00    86s] Bad via found: M1_N
+[11/19 14:23:00    86s] Bad via found: M1_P
+[11/19 14:23:00    86s] Bad via found: M1_POLY
+[11/19 14:23:00    86s] Bad via found: NTAP
+[11/19 14:23:00    86s] **WARN: (ENCSR-1234):	Find 4 vias whose layer defination is incorrect after power routing.
+[11/19 14:23:00    86s]   Number of IO ports routed: 0
+[11/19 14:23:00    86s]   Number of Block ports routed: 0
+[11/19 14:23:00    86s]   Number of Stripe ports routed: 0
+[11/19 14:23:00    86s]   Number of Core ports routed: 38
+[11/19 14:23:00    86s]   Number of Pad ports routed: 0
+[11/19 14:23:00    86s]   Number of Power Bump ports routed: 0
+[11/19 14:23:00    86s]   Number of Followpin connections: 19
+[11/19 14:23:00    86s] End power routing: cpu: 0:00:00, real: 0:00:00, peak: 1078.00 megs.
+[11/19 14:23:00    86s] 
+[11/19 14:23:00    86s] 
+[11/19 14:23:00    86s] 
+[11/19 14:23:00    86s]  Begin updating DB with routing results ...
+[11/19 14:23:00    86s]  Updating DB with 12 via definition ...
+[11/19 14:23:00    86s]  Updating DB with 2 io pins ...Extracting standard cell pins and blockage ...... 
+[11/19 14:23:00    86s] Pin and blockage extraction finished
+[11/19 14:23:00    86s] 
+[11/19 14:23:00    86s] 
+sroute post-processing starts at Sun Nov 19 14:23:00 2017
+The viaGen is rebuilding shadow vias for net gnd!.
+[11/19 14:23:00    86s] sroute post-processing ends at Sun Nov 19 14:23:00 2017
+
+sroute post-processing starts at Sun Nov 19 14:23:00 2017
+The viaGen is rebuilding shadow vias for net vdd!.
+[11/19 14:23:00    86s] sroute post-processing ends at Sun Nov 19 14:23:00 2017
+sroute: Total CPU time used = 0:0:0
+[11/19 14:23:00    86s] sroute: Total Real time used = 0:0:0
+[11/19 14:23:00    86s] sroute: Total Memory used = 6.30 megs
+[11/19 14:23:00    86s] sroute: Total Peak Memory used = 463.18 megs
+[11/19 14:23:16    89s] <CMD> setPlaceMode -fp false
+[11/19 14:23:16    89s] <CMD> placeDesign
+[11/19 14:23:16    89s] *** Starting placeDesign default flow ***
+[11/19 14:23:16    89s] **INFO: Enable pre-place timing setting for timing analysis
+[11/19 14:23:16    89s] Set Using Default Delay Limit as 101.
+[11/19 14:23:16    89s] **WARN: (ENCDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+[11/19 14:23:16    89s] Set Default Net Delay as 0 ps.
+[11/19 14:23:16    89s] Set Default Net Load as 0 pF. 
+[11/19 14:23:16    89s] **INFO: Analyzing IO path groups for slack adjustment
+[11/19 14:23:16    89s] Effort level <high> specified for reg2reg_tmp.14311 path_group
+[11/19 14:23:16    89s] #################################################################################
+[11/19 14:23:16    89s] # Design Stage: PreRoute
+[11/19 14:23:16    89s] # Design Mode: 90nm
+[11/19 14:23:16    89s] # Analysis Mode: MMMC non-OCV
+[11/19 14:23:16    89s] # Extraction Mode: default
+[11/19 14:23:16    89s] # Delay Calculation Options: engine=aae SIAware=false(opt_signoff)
+[11/19 14:23:16    89s] # Switching Delay Calculation Engine to AAE
+[11/19 14:23:16    89s] #################################################################################
+[11/19 14:23:16    89s] Calculate delays in Single mode...
+[11/19 14:23:16    89s] Topological Sorting (CPU = 0:00:00.0, MEM = 480.0M, InitMEM = 480.0M)
+[11/19 14:23:16    89s] siFlow : Timing analysis mode is single, using late cdB files
+[11/19 14:23:16    89s] AAE_MTTC: End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/19 14:23:16    89s] AAE_THRD: End delay calculation. (MEM=622.574 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/19 14:23:16    89s] *** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 622.6M) ***
+[11/19 14:23:16    89s] *** Start deleteBufferTree ***
+[11/19 14:23:16    89s] Info: Detect buffers to remove automatically.
+[11/19 14:23:16    89s] Analyzing netlist ...
+[11/19 14:23:16    89s] All-RC-Corners-Per-Net-In-Memory is turned ON...
+[11/19 14:23:16    89s] Updating netlist
+[11/19 14:23:16    89s] 
+[11/19 14:23:16    89s] *summary: 2 instances (buffers/inverters) removed
+[11/19 14:23:16    89s] *** Finish deleteBufferTree (0:00:00.0) ***
+[11/19 14:23:16    89s] **INFO: Disable pre-place timing setting for timing analysis
+[11/19 14:23:16    89s] Set Using Default Delay Limit as 1000.
+[11/19 14:23:16    89s] Set Default Net Delay as 1000 ps.
+[11/19 14:23:16    89s] Set Default Net Load as 0.5 pF. 
+[11/19 14:23:16    89s] *** Starting "NanoPlace(TM) placement v#1 (mem=614.5M)" ...
+[11/19 14:23:16    89s] **WARN: (ENCTS-403):	Delay calculation was forced to extrapolate table data outside of the characterized range. In some cases, extrapolation can reduce the accuracy of the delay calculation. You can enable more detailed reporting of these cases by enabling the command 'setDelayCalMode -reportOutBound true'.
+[11/19 14:23:16    89s] Type 'man ENCTS-403' for more detail.
+[11/19 14:23:16    89s] *** Build Buffered Sizing Timing Model
+[11/19 14:23:16    89s] (cpu=0:00:00.0 mem=614.5M) ***
+[11/19 14:23:16    89s] *** Build Virtual Sizing Timing Model
+[11/19 14:23:16    89s] (cpu=0:00:00.1 mem=614.5M) ***
+[11/19 14:23:16    89s] Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+[11/19 14:23:16    89s] **WARN: (ENCSP-9042):	Scan chains were not defined, -ignoreScan option will be ignored.
+[11/19 14:23:16    89s] Define the scan chains before using this option.
+[11/19 14:23:16    89s] Type 'man ENCSP-9042' for more detail.
+[11/19 14:23:16    89s] #std cell=297 (0 fixed + 297 movable) #block=0 (0 floating + 0 preplaced)
+[11/19 14:23:16    89s] #ioInst=0 #net=332 #term=918 #term/net=2.77, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=2
+[11/19 14:23:16    89s] stdCell: 297 single + 0 double + 0 multi
+[11/19 14:23:16    89s] Total standard cell length = 2.9395 (mm), area = 0.0333 (mm^2)
+[11/19 14:23:16    89s] Core basic site is CoreSite
+[11/19 14:23:16    89s] **Info: (ENCSP-307): Design contains fractional 1 cell.
+[11/19 14:23:16    89s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[11/19 14:23:16    89s] Average module density = 0.700.
+[11/19 14:23:16    89s] Density for the design = 0.700.
+[11/19 14:23:16    89s]        = stdcell_area 3629 sites (33334 um^2) / alloc_area 5184 sites (47617 um^2).
+[11/19 14:23:16    89s] Pin Density = 0.253.
+[11/19 14:23:16    89s]             = total # of pins 918 / total Instance area 3629.
+[11/19 14:23:16    89s] === lastAutoLevel = 5 
+[11/19 14:23:16    89s] Clock gating cells determined by native netlist tracing.
+[11/19 14:23:16    89s] Effort level <high> specified for reg2reg path_group
+[11/19 14:23:17    89s] Iteration  1: Total net bbox = 5.443e+02 (5.39e+02 5.36e+00)
+[11/19 14:23:17    89s]               Est.  stn bbox = 8.211e+02 (8.13e+02 8.31e+00)
+[11/19 14:23:17    89s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 591.6M
+[11/19 14:23:17    89s] Iteration  2: Total net bbox = 5.443e+02 (5.39e+02 5.36e+00)
+[11/19 14:23:17    89s]               Est.  stn bbox = 8.211e+02 (8.13e+02 8.31e+00)
+[11/19 14:23:17    89s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 591.6M
+[11/19 14:23:17    89s] Iteration  3: Total net bbox = 4.717e+02 (4.63e+02 8.68e+00)
+[11/19 14:23:17    89s]               Est.  stn bbox = 8.832e+02 (8.69e+02 1.41e+01)
+[11/19 14:23:17    89s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 591.6M
+[11/19 14:23:17    89s] Total number of setup views is 1.
+[11/19 14:23:17    89s] Total number of active setup views is 1.
+[11/19 14:23:18    90s] Iteration  4: Total net bbox = 1.606e+03 (7.62e+02 8.44e+02)
+[11/19 14:23:18    90s]               Est.  stn bbox = 2.781e+03 (1.41e+03 1.37e+03)
+[11/19 14:23:18    90s]               cpu = 0:00:00.2 real = 0:00:01.0 mem = 591.6M
+[11/19 14:23:18    90s] Iteration  5: Total net bbox = 2.094e+03 (9.33e+02 1.16e+03)
+[11/19 14:23:18    90s]               Est.  stn bbox = 3.719e+03 (1.80e+03 1.92e+03)
+[11/19 14:23:18    90s]               cpu = 0:00:00.2 real = 0:00:00.0 mem = 591.6M
+[11/19 14:23:18    90s] Iteration  6: Total net bbox = 3.187e+03 (1.73e+03 1.46e+03)
+[11/19 14:23:18    90s]               Est.  stn bbox = 4.970e+03 (2.65e+03 2.32e+03)
+[11/19 14:23:18    90s]               cpu = 0:00:00.2 real = 0:00:00.0 mem = 591.6M
+[11/19 14:23:18    90s] Iteration  7: Total net bbox = 5.941e+03 (3.45e+03 2.49e+03)
+[11/19 14:23:18    90s]               Est.  stn bbox = 7.708e+03 (4.34e+03 3.36e+03)
+[11/19 14:23:18    90s]               cpu = 0:00:00.1 real = 0:00:00.0 mem = 591.6M
+[11/19 14:23:18    90s] Congestion driven padding in post-place stage.
+[11/19 14:23:18    90s] Congestion driven padding increases utilization from 0.700 to 0.826
+[11/19 14:23:18    90s] Congestion driven padding runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 594.6M
+[11/19 14:23:18    90s] Iteration  8: Total net bbox = 6.604e+03 (3.77e+03 2.84e+03)
+[11/19 14:23:18    90s]               Est.  stn bbox = 8.333e+03 (4.63e+03 3.70e+03)
+[11/19 14:23:18    90s]               cpu = 0:00:00.2 real = 0:00:00.0 mem = 594.6M
+[11/19 14:23:18    90s] Iteration  9: Total net bbox = 6.604e+03 (3.77e+03 2.84e+03)
+[11/19 14:23:18    90s]               Est.  stn bbox = 8.333e+03 (4.63e+03 3.70e+03)
+[11/19 14:23:18    90s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 594.6M
+[11/19 14:23:18    90s] *** cost = 6.604e+03 (3.77e+03 2.84e+03) (cpu for global=0:00:01.0) real=0:00:02.0***
+[11/19 14:23:18    90s] Info: 0 clock gating cells identified, 0 (on average) moved
+[11/19 14:23:18    90s] Core Placement runtime cpu: 0:00:01.0 real: 0:00:02.0
+[11/19 14:23:19    90s] **WARN: (ENCSP-9025):	No scan chain specified/traced.
+[11/19 14:23:19    90s] Type 'man ENCSP-9025' for more detail.
+[11/19 14:23:19    90s] Core basic site is CoreSite
+[11/19 14:23:19    90s] **Info: (ENCSP-307): Design contains fractional 1 cell.
+[11/19 14:23:19    90s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[11/19 14:23:19    90s] *** Starting refinePlace (0:01:31 mem=565.2M) ***
+[11/19 14:23:19    90s] Total net length = 6.604e+03 (3.767e+03 2.838e+03) (ext = 4.513e+02)
+[11/19 14:23:19    90s] Starting refinePlace ...
+[11/19 14:23:19    90s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[11/19 14:23:19    91s]   Spread Effort: high, pre-route mode, useDDP on.
+[11/19 14:23:19    91s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.5, real=0:00:00.0, mem=565.2MB) @(0:01:31 - 0:01:31).
+[11/19 14:23:19    91s] Move report: preRPlace moves 297 insts, mean move: 3.36 um, max move: 9.98 um
+[11/19 14:23:19    91s] 	Max move on inst (U116): (24.39, 139.67) --> (29.97, 135.27)
+[11/19 14:23:19    91s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: and2_1
+[11/19 14:23:19    91s] wireLenOptFixPriorityInst 0 inst fixed
+[11/19 14:23:19    91s] Placement tweakage begins.
+[11/19 14:23:19    91s] wire length = 1.008e+04
+[11/19 14:23:19    91s] wire length = 9.090e+03
+[11/19 14:23:19    91s] Placement tweakage ends.
+[11/19 14:23:19    91s] Move report: tweak moves 50 insts, mean move: 12.17 um, max move: 42.12 um
+[11/19 14:23:19    91s] 	Max move on inst (B_REG/B_reg[16]): (117.45, 112.59) --> (98.01, 89.91)
+[11/19 14:23:19    91s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[11/19 14:23:19    91s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=565.2MB) @(0:01:31 - 0:01:31).
+[11/19 14:23:19    91s] Move report: Detail placement moves 297 insts, mean move: 4.87 um, max move: 44.93 um
+[11/19 14:23:19    91s] 	Max move on inst (B_REG/B_reg[16]): (117.20, 115.64) --> (98.01, 89.91)
+[11/19 14:23:19    91s] 	Runtime: CPU: 0:00:00.5 REAL: 0:00:00.0 MEM: 565.2MB
+[11/19 14:23:19    91s] Statistics of distance of Instance movement in refine placement:
+[11/19 14:23:19    91s]   maximum (X+Y) =        44.93 um
+[11/19 14:23:19    91s]   inst (B_REG/B_reg[16]) with max move: (117.202, 115.645) -> (98.01, 89.91)
+[11/19 14:23:19    91s]   mean    (X+Y) =         4.87 um
+[11/19 14:23:19    91s] Total instances flipped for WireLenOpt: 17
+[11/19 14:23:19    91s] Summary Report:
+[11/19 14:23:19    91s] Instances move: 297 (out of 297 movable)
+[11/19 14:23:19    91s] Mean displacement: 4.87 um
+[11/19 14:23:19    91s] Max displacement: 44.93 um (Instance: B_REG/B_reg[16]) (117.202, 115.645) -> (98.01, 89.91)
+[11/19 14:23:19    91s] 	Length: 19 sites, height: 1 rows, site name: CoreSite, cell type: dp_1
+[11/19 14:23:19    91s] Total instances moved : 297
+[11/19 14:23:19    91s] Total net length = 5.980e+03 (3.029e+03 2.952e+03) (ext = 4.698e+02)
+[11/19 14:23:19    91s] Runtime: CPU: 0:00:00.5 REAL: 0:00:00.0 MEM: 565.2MB
+[11/19 14:23:19    91s] [CPU] RefinePlace/total (cpu=0:00:00.5, real=0:00:00.0, mem=565.2MB) @(0:01:31 - 0:01:31).
+[11/19 14:23:19    91s] *** Finished refinePlace (0:01:31 mem=565.2M) ***
+[11/19 14:23:19    91s] Total net length = 5.966e+03 (2.975e+03 2.991e+03) (ext = 4.682e+02)
+[11/19 14:23:19    91s] *** End of Placement (cpu=0:00:02.0, real=0:00:03.0, mem=565.2M) ***
+[11/19 14:23:19    91s] Core basic site is CoreSite
+[11/19 14:23:19    91s] **Info: (ENCSP-307): Design contains fractional 1 cell.
+[11/19 14:23:19    91s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[11/19 14:23:19    91s] default core: bins with density >  0.75 = 16.7 % ( 1 / 6 )
+[11/19 14:23:19    91s] Density distribution unevenness ratio = 3.442%
+[11/19 14:23:19    91s] *** Free Virtual Timing Model ...(mem=565.2M)
+[11/19 14:23:19    91s] Starting IO pin assignment...
+[11/19 14:23:19    91s] Completed IO pin assignment.
+[11/19 14:23:19    91s] Starting congestion repair ...
+[11/19 14:23:19    91s] congRepair options: -clkGateAware 1 -rplaceIncrNPClkGateAwareMode 4.
+[11/19 14:23:19    91s] *** Starting trialRoute (mem=565.2M) ***
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] There are 0 guide points passed to trialRoute for fixed pins.
+[11/19 14:23:19    91s] There are 0 guide points passed to trialRoute for pinGroup/netGroup/pinGuide pins.
+[11/19 14:23:19    91s] triMarkNetsWithAllFixedWires runtime= 0:00:00.0
+[11/19 14:23:19    91s] Options:  -noPinGuide
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] routingBox: (0 0) (254475 224640)
+[11/19 14:23:19    91s] coreBox:    (10530 10530) (244485 214650)
+[11/19 14:23:19    91s] Number of multi-gpin terms=88, multi-gpins=176, moved blk term=0/0
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Phase 1a route (0:00:00.0 565.2M):
+[11/19 14:23:19    91s] Est net length = 8.464e+03um = 4.256e+03H + 4.209e+03V
+[11/19 14:23:19    91s] Usage: (4.1%H 7.4%V) = (5.642e+03um 1.324e+04um) = (1373 1168)
+[11/19 14:23:19    91s] Obstruct: 0 = 0 (0.0%H) + 0 (0.0%V)
+[11/19 14:23:19    91s] Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Phase 1b route (0:00:00.0 566.2M):
+[11/19 14:23:19    91s] Usage: (4.1%H 7.4%V) = (5.642e+03um 1.324e+04um) = (1373 1168)
+[11/19 14:23:19    91s] Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Phase 1c route (0:00:00.0 566.2M):
+[11/19 14:23:19    91s] Usage: (4.0%H 7.4%V) = (5.622e+03um 1.320e+04um) = (1368 1165)
+[11/19 14:23:19    91s] Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Phase 1d route (0:00:00.0 566.2M):
+[11/19 14:23:19    91s] Usage: (4.0%H 7.4%V) = (5.622e+03um 1.320e+04um) = (1368 1165)
+[11/19 14:23:19    91s] Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Phase 1a-1d Overflow: 0.00% H + 0.00% V (0:00:00.0 566.2M)
+
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Phase 1e route (0:00:00.0 567.2M):
+[11/19 14:23:19    91s] Usage: (4.0%H 7.4%V) = (5.622e+03um 1.320e+04um) = (1368 1165)
+[11/19 14:23:19    91s] Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Overflow: 0.00% H + 0.00% V (0:00:00.0 567.2M)
+
+[11/19 14:23:19    91s] Usage: (4.0%H 7.4%V) = (5.622e+03um 1.320e+04um) = (1368 1165)
+[11/19 14:23:19    91s] Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Congestion distribution:
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Remain	cntH		cntV
+[11/19 14:23:19    91s] --------------------------------------
+[11/19 14:23:19    91s] --------------------------------------
+[11/19 14:23:19    91s]   4:	0	 0.00%	2	 0.15%
+[11/19 14:23:19    91s]   5:	1342	100.00%	1340	99.85%
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Global route (cpu=0.0s real=0.0s 567.2M)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] *** After '-updateRemainTrks' operation: 
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Usage: (4.3%H 7.9%V) = (6.044e+03um 1.421e+04um) = (1470 1254)
+[11/19 14:23:19    91s] Overflow: 0 = 0 (0.00% H) + 0 (0.00% V)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Phase 1l Overflow: 0.00% H + 0.00% V (0:00:00.0 575.2M)
+
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Congestion distribution:
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Remain	cntH		cntV
+[11/19 14:23:19    91s] --------------------------------------
+[11/19 14:23:19    91s] --------------------------------------
+[11/19 14:23:19    91s]   3:	0	 0.00%	3	 0.22%
+[11/19 14:23:19    91s]   4:	0	 0.00%	4	 0.30%
+[11/19 14:23:19    91s]   5:	1342	100.00%	1335	99.48%
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] *** Completed Phase 1 route (0:00:00.0 575.2M) ***
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Total length: 8.906e+03um, number of vias: 1904
+[11/19 14:23:19    91s] M1(H) length: 0.000e+00um, number of vias: 916
+[11/19 14:23:19    91s] M2(V) length: 3.442e+03um, number of vias: 761
+[11/19 14:23:19    91s] M3(H) length: 4.102e+03um, number of vias: 227
+[11/19 14:23:19    91s] M4(V) length: 1.362e+03um, number of vias: 0
+[11/19 14:23:19    91s] M5(H) length: 0.000e+00um, number of vias: 0
+[11/19 14:23:19    91s] M6(V) length: 0.000e+00um
+[11/19 14:23:19    91s] *** Completed Phase 2 route (0:00:00.0 575.2M) ***
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] *** Finished all Phases (cpu=0:00:00.0 mem=575.2M) ***
+[11/19 14:23:19    91s] dbSprFixZeroViaCodes runtime= 0:00:00.0
+[11/19 14:23:19    91s] Peak Memory Usage was 575.2M 
+[11/19 14:23:19    91s] TrialRoute+GlbRouteEst total runtime= +0:00:00.0 = 0:00:00.0
+[11/19 14:23:19    91s]   TrialRoute full (called once) runtime= 0:00:00.0
+[11/19 14:23:19    91s]   GlbRouteEst (called once) runtime= 0:00:00.0
+[11/19 14:23:19    91s] *** Finished trialRoute (cpu=0:00:00.0 mem=575.2M) ***
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] ** np local hotspot detection info verbose **
+[11/19 14:23:19    91s] level 0: max group area = 0.00 (0.00%) total group area = 0.00 (0.00%) threshold area = 88.00 (area is in unit of 4 std-cell row bins)
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] describeCongestion: hCong = 0.00 vCong = 0.00
+[11/19 14:23:19    91s] Trial Route Overflow 0.000000(H) 0.000000(V).
+[11/19 14:23:19    91s] Start repairing congestion with level 1.
+[11/19 14:23:19    91s] Skipped repairing congestion.
+[11/19 14:23:19    91s] End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+[11/19 14:23:19    91s] *** Finishing placeDesign default flow ***
+[11/19 14:23:19    91s] **placeDesign ... cpu = 0: 0: 2, real = 0: 0: 3, mem = 565.2M **
+[11/19 14:23:19    91s] 
+[11/19 14:23:19    91s] *** Summary of all messages that are not suppressed in this session:
+[11/19 14:23:19    91s] Severity  ID               Count  Summary                                  
+[11/19 14:23:19    91s] WARNING   ENCTS-403            1  Delay calculation was forced to extrapol...
+[11/19 14:23:19    91s] WARNING   ENCDC-1629           1  The default delay limit was set to %d. T...
+[11/19 14:23:19    91s] WARNING   ENCSP-9025           1  No scan chain specified/traced.          
+[11/19 14:23:19    91s] WARNING   ENCSP-9042           1  Scan chains were not defined, -ignoreSca...
+[11/19 14:23:19    91s] *** Message Summary: 4 warning(s), 0 error(s)
+[11/19 14:23:19    91s] 
+[11/19 14:45:30   237s] 
+[11/19 14:45:30   237s] *** Memory Usage v#3 (Current mem = 565.191M, initial mem = 88.223M) ***
+[11/19 14:45:30   237s] 
+[11/19 14:45:30   237s] *** Summary of all messages that are not suppressed in this session:
+[11/19 14:45:30   237s] Severity  ID               Count  Summary                                  
+[11/19 14:45:30   237s] WARNING   ENCLF-108            1  There is no overlap layer defined in any...
+[11/19 14:45:30   237s] WARNING   ENCFP-325            1  Floorplan of the design is resized. All ...
+[11/19 14:45:30   237s] WARNING   ENCTS-403            1  Delay calculation was forced to extrapol...
+[11/19 14:45:30   237s] WARNING   ENCEXT-2766          6  Sheet resistance for layer %s is not def...
+[11/19 14:45:30   237s] WARNING   ENCEXT-2773          6  The via resistance between layers %s and...
+[11/19 14:45:30   237s] WARNING   ENCVL-346            7  Module '%s' is instantiated in the netli...
+[11/19 14:45:30   237s] WARNING   ENCDB-2504           7  Cell '%s' is instantiated in the Verilog...
+[11/19 14:45:30   237s] WARNING   ENCDC-1629           1  The default delay limit was set to %d. T...
+[11/19 14:45:30   237s] WARNING   ENCSR-1234           2  Find %d vias whose layer defination is i...
+[11/19 14:45:30   237s] WARNING   ENCSR-1254           2  Cannot find any block pin of net %s. Che...
+[11/19 14:45:30   237s] WARNING   ENCSR-1256           2  Cannot find any CORE class pad pin of ne...
+[11/19 14:45:30   237s] WARNING   ENCSP-9025           1  No scan chain specified/traced.          
+[11/19 14:45:30   237s] WARNING   ENCSP-9042           1  Scan chains were not defined, -ignoreSca...
+[11/19 14:45:30   237s] *** Message Summary: 38 warning(s), 0 error(s)
+[11/19 14:45:30   237s] 
+[11/19 14:45:30   237s] --- Ending "Encounter" (totcpu=0:03:57, real=0:33:01, mem=565.2M) ---

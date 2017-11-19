@@ -1,0 +1,214 @@
+Warning: Design 'top' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : register
+Design : top
+Version: J-2014.09-SP5
+Date   : Sat Nov 18 22:12:37 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+ADDER/sum_reg[0]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[1]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[2]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[3]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[4]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[5]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[6]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[7]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[8]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[9]          dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[10]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[11]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[12]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[13]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[14]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[15]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[16]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[17]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[18]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[19]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[20]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[21]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[22]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[23]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[24]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[25]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[26]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[27]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[28]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[29]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[30]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+ADDER/sum_reg[31]         dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[0]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[1]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[2]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[3]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[4]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[5]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[6]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[7]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[8]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[9]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[10]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[11]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[12]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[13]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[14]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[15]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[16]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[17]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[18]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[19]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[20]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[21]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[22]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[23]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[24]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[25]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[26]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[27]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[28]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[29]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[30]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+A_REG/A_reg[31]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[0]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[1]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[2]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[3]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[4]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[5]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[6]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[7]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[8]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[9]            dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[10]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[11]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[12]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[13]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[14]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[15]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[16]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[17]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[18]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[19]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[20]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[21]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[22]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[23]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[24]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[25]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[26]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[27]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[28]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[29]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[30]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+B_REG/B_reg[31]           dp_1            vtvt_tsmc180    174.522598
+                                                                    n, so
+--------------------------------------------------------------------------------
+Total 96 cells                                            16754.169434
+1

@@ -1,0 +1,21 @@
+Warning: Design 'top' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : register
+Design : top
+Version: J-2014.09-SP5
+Date   : Sat Nov 18 22:12:37 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total 0 cells                                             0.000000
+1

@@ -1,0 +1,598 @@
+Warning: Design 'top' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 3
+        -greater_path 0.00
+        -max_paths 20
+Design : top
+Version: J-2014.09-SP5
+Date   : Sat Nov 18 22:12:37 2017
+****************************************
+
+Operating Conditions: nom_pvt   Library: vtvt_tsmc180
+Wire Load Model Mode: top
+
+  Startpoint: ADDER/sum_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[0]/ck (dp_1)               0.00       0.00 r
+  ADDER/sum_reg[0]/q (dp_1)              203.41     203.41 f
+  U3/op (mux2_1)                         142.30     345.71 f
+  ADDER/sum_reg[0]/ip (dp_1)               0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  ADDER/sum_reg[0]/ck (dp_1)               0.00   50000.00 r
+  library setup time                    -344.03   49655.97
+  data required time                              49655.97
+  -----------------------------------------------------------
+  data required time                              49655.97
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49310.26
+
+
+  Startpoint: ADDER/sum_reg[31]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ADDER/sum_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ADDER/sum_reg[31]/ck (dp_1)              0.00       0.00 r
+  ADDER/sum_reg[31]/q (dp_1)             203.41     203.41 f
+  U2/op (mux2_1)                         142.30     345.71 f
+  ADDER/sum_reg[31]/ip (dp_1)              0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  ADDER/sum_reg[31]/ck (dp_1)              0.00   50000.00 r
+  library setup time                    -189.00   49811.00
+  data required time                              49811.00
+  -----------------------------------------------------------
+  data required time                              49811.00
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49465.29
+
+
+  Startpoint: A_REG/A_reg[14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[14]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[14]/q (dp_1)               203.41     203.41 f
+  U48/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[14]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[14]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[16]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[16]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[16]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[16]/q (dp_1)               203.41     203.41 f
+  U50/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[16]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[16]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[18]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[18]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[18]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[18]/q (dp_1)               203.41     203.41 f
+  U52/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[18]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[18]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[20]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[20]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[20]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[20]/q (dp_1)               203.41     203.41 f
+  U54/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[20]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[20]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[21]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[21]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[21]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[21]/q (dp_1)               203.41     203.41 f
+  U55/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[21]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[21]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[22]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[22]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[22]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[22]/q (dp_1)               203.41     203.41 f
+  U56/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[22]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[22]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[23]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[23]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[23]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[23]/q (dp_1)               203.41     203.41 f
+  U57/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[23]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[23]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[24]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[24]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[24]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[24]/q (dp_1)               203.41     203.41 f
+  U58/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[24]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[24]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[25]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[25]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[25]/q (dp_1)               203.41     203.41 f
+  U59/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[25]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[25]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[26]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[26]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[26]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[26]/q (dp_1)               203.41     203.41 f
+  U60/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[26]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[26]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[27]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[27]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[27]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[27]/q (dp_1)               203.41     203.41 f
+  U61/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[27]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[27]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[28]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[28]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[28]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[28]/q (dp_1)               203.41     203.41 f
+  U62/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[28]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[28]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[29]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[29]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[29]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[29]/q (dp_1)               203.41     203.41 f
+  U63/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[29]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[29]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[30]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[30]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[30]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[30]/q (dp_1)               203.41     203.41 f
+  U64/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[30]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[30]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: A_REG/A_reg[31]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A_REG/A_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  A_REG/A_reg[31]/ck (dp_1)                0.00       0.00 r
+  A_REG/A_reg[31]/q (dp_1)               203.41     203.41 f
+  U65/op (mux2_1)                        142.30     345.71 f
+  A_REG/A_reg[31]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  A_REG/A_reg[31]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: B_REG/B_reg[13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: B_REG/B_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  B_REG/B_reg[13]/ck (dp_1)                0.00       0.00 r
+  B_REG/B_reg[13]/q (dp_1)               203.41     203.41 f
+  U79/op (mux2_1)                        142.30     345.71 f
+  B_REG/B_reg[13]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  B_REG/B_reg[13]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: B_REG/B_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: B_REG/B_reg[15]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  B_REG/B_reg[15]/ck (dp_1)                0.00       0.00 r
+  B_REG/B_reg[15]/q (dp_1)               203.41     203.41 f
+  U81/op (mux2_1)                        142.30     345.71 f
+  B_REG/B_reg[15]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  B_REG/B_reg[15]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+  Startpoint: B_REG/B_reg[17]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: B_REG/B_reg[17]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  B_REG/B_reg[17]/ck (dp_1)                0.00       0.00 r
+  B_REG/B_reg[17]/q (dp_1)               203.41     203.41 f
+  U83/op (mux2_1)                        142.30     345.71 f
+  B_REG/B_reg[17]/ip (dp_1)                0.00     345.71 f
+  data arrival time                                 345.71
+
+  clock clk (rise edge)                50000.00   50000.00
+  clock network delay (ideal)              0.00   50000.00
+  B_REG/B_reg[17]/ck (dp_1)                0.00   50000.00 r
+  library setup time                    -149.52   49850.48
+  data required time                              49850.48
+  -----------------------------------------------------------
+  data required time                              49850.48
+  data arrival time                                -345.71
+  -----------------------------------------------------------
+  slack (MET)                                     49504.77
+
+
+1

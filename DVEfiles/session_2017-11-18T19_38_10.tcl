@@ -1,20 +1,20 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Sun Nov 19 14:46:44 2017
+# Saved on Sat Nov 18 17:37:06 2017
 # Designs open: 1
-#   V1: /home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2/top.vcd
+#   V1: /home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: 
 #   Group count = 1
-#   Group DUT signal count = 23
+#   Group FS_REG signal count = 5
 # End_DVE_Session_Save_Info
 
 # DVE version: J-2014.12-SP1-1
 # DVE build date: Apr 23 2015 20:58:03
 
 
-#<Session mode="Full" path="/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2/DVEfiles/session.tcl" type="Debug">
+#<Session mode="Full" path="/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/DVEfiles/session.tcl" type="Debug">
 
 gui_set_loading_session_type Post
 gui_continuetime_set
@@ -66,7 +66,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state normal -rect {{388 271} {1328 853}}
+gui_show_window -window ${TopLevel.1} -show_state normal -rect {{768 418} {1889 1004}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -107,23 +107,23 @@ gui_hide_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 215]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 219]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 215
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 219
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 214} {height 378} {dock_state left} {dock_on_new_line true} {child_hier_colhier 166} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 118]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 218} {height 382} {dock_state left} {dock_on_new_line true} {child_hier_colhier 166} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 122]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 118
-gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 379
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 122
+gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 383
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 117} {height 378} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 121} {height 382} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
 set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 105]
-gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 941
+gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1122
 gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 105
 gui_set_window_pref_key -window ${Console.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 940} {height 105} {dock_state bottom} {dock_on_new_line true}}
+gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1121} {height 105} {dock_state bottom} {dock_on_new_line true}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -146,8 +146,8 @@ gui_sync_global -id ${TopLevel.1} -option true
 
 # MDI window settings
 set Source.1 [gui_create_window -type {Source}  -parent ${TopLevel.1}]
-gui_show_window -window ${Source.1} -show_state normal -rect {{0 0} {592 328}}
-gui_update_layout -id ${Source.1} {{left 0} {top 0} {width 597} {height 353} {show_state normal} {dock_state undocked} {dock_on_new_line false}}
+gui_show_window -window ${Source.1} -show_state normal -rect {{0 0} {576 332}}
+gui_update_layout -id ${Source.1} {{left 0} {top 0} {width 581} {height 357} {show_state normal} {dock_state undocked} {dock_on_new_line false}}
 
 # End MDI window settings
 
@@ -166,8 +166,8 @@ gui_update_statusbar_target_frame ${TopLevel.1}
 
 # DVE Open design session: 
 
-if { ![gui_is_db_opened -db {/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2/top.vcd.vpd}] } {
-	gui_open_db -design V1 -file /home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2/top.vcd.vpd -nosource
+if { ![gui_is_db_opened -db {/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd.vpd}] } {
+	gui_open_db -design V1 -file /home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd.vpd -nosource
 }
 gui_set_precision 1ps
 gui_set_time_units 1ps
@@ -185,14 +185,14 @@ gui_set_time_units 1ps
 # Global: Signal Compare
 
 # Global: Signal Groups
-gui_load_child_values {top_tb.DUT}
+gui_load_child_values {top_tb.DUT.FS_REG}
 
 
-set _session_group_1 DUT
+set _session_group_1 FS_REG
 gui_sg_create "$_session_group_1"
-set DUT "$_session_group_1"
+set FS_REG "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { top_tb.DUT.clk top_tb.DUT.reset top_tb.DUT.done top_tb.DUT.ps_in top_tb.DUT.fs_in top_tb.DUT.fs_out top_tb.DUT.a_in top_tb.DUT.b_in top_tb.DUT.mr_in top_tb.DUT.write top_tb.DUT.A top_tb.DUT.B top_tb.DUT.a top_tb.DUT.b top_tb.DUT.product top_tb.DUT.PRODUCT top_tb.DUT.ps top_tb.DUT.sum top_tb.DUT.fs top_tb.DUT.address top_tb.DUT.wdata top_tb.DUT.add_enable top_tb.DUT.multiply_enable }
+gui_sg_addsignal -group "$_session_group_1" { top_tb.DUT.FS_REG.clk top_tb.DUT.FS_REG.reset top_tb.DUT.FS_REG.fs_in top_tb.DUT.FS_REG.ps top_tb.DUT.FS_REG.fs }
 
 # Global: Highlighting
 
@@ -228,14 +228,15 @@ gui_list_set_filter -id ${Hier.1} -text {*}
 gui_hier_list_init -id ${Hier.1}
 gui_change_design -id ${Hier.1} -design V1
 catch {gui_list_expand -id ${Hier.1} top_tb}
-catch {gui_list_select -id ${Hier.1} {top_tb.DUT}}
+catch {gui_list_expand -id ${Hier.1} top_tb.DUT}
+catch {gui_list_select -id ${Hier.1} {top_tb.DUT.FS_REG}}
 gui_view_scroll -id ${Hier.1} -vertical -set 0
 gui_view_scroll -id ${Hier.1} -horizontal -set 0
 
 # Data 'Data.1'
 gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {LowPower 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
 gui_list_set_filter -id ${Data.1} -text {*}
-gui_list_show_data -id ${Data.1} {top_tb.DUT}
+gui_list_show_data -id ${Data.1} {top_tb.DUT.FS_REG}
 gui_view_scroll -id ${Data.1} -vertical -set 0
 gui_view_scroll -id ${Data.1} -horizontal -set 0
 gui_view_scroll -id ${Hier.1} -vertical -set 0

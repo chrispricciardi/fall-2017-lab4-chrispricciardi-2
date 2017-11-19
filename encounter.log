@@ -1,0 +1,507 @@
+Checking out Encounter license ...
+	edsxl		DENIED:		"Encounter_Digital_Impl_Sys_XL"
+	edsl		DENIED:		"Encounter_Digital_Impl_Sys_L"
+	encblk		DENIED:		"Encounter_Block"
+	fegxl		DENIED:		"First_Encounter_GXL"
+	fexl		DENIED:		"FE_GPS"
+	nru		DENIED:		"NanoRoute_Ultra"
+	vdixl		DENIED:		"Virtuoso_Digital_Implem_XL"
+	vdi		CHECKED OUT:	"Virtuoso_Digital_Implem"
+Virtuoso_Digital_Implem 14.2 license checkout succeeded.
+	Maximum number of instance allowed (1 x 50000).
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v14.23-s044_1 (64bit) 03/20/2015 11:30 (Linux 2.6.18-194.el5)
+@(#)CDS: NanoRoute v14.23-s028 NR150319-1745/14_23-UB (database version 2.30, 255.6.1) {superthreading v1.25}
+@(#)CDS: CeltIC v14.23-s013_1 (64bit) 03/09/2015 04:15:07 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 14.23-s010 (64bit) 03/20/2015 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 14.23-s014_1 (64bit) Mar  9 2015 03:15:25 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v14.23-s032
+@(#)CDS: IQRC/TQRC 14.1.6-s260 (64bit) Mon Mar  2 11:26:49 PST 2015 (Linux 2.6.18-194.el5)
+@(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+@(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+@(#)CDS: RCDB 11.5
+--- Starting "Encounter v14.23-s044_1" on Sun Nov 19 14:12:38 2017 (mem=88.2M) ---
+--- Running on linuxlab006.seas.wustl.edu (x86_64 w/Linux 3.10.0-514.26.2.el7.x86_64) ---
+This version was compiled on Fri Mar 20 11:30:09 PDT 2015.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> set init_gnd_net gnd!
+<CMD> set init_lef_file /project/linuxlab/cadence/vendors/VTVT/vtvt_tsmc180/vtvt_tsmc180_lef/vtvt_tsmc180.lef
+<CMD> set init_verilog top.syn.v
+<CMD> set init_mmmc_file Default.view
+<CMD> set init_pwr_net vdd!
+<CMD> init_design
+
+Loading LEF file /project/linuxlab/cadence/vendors/VTVT/vtvt_tsmc180/vtvt_tsmc180_lef/vtvt_tsmc180.lef ...
+**WARN: (ENCLF-108):	There is no overlap layer defined in any LEF file
+so you are unable to create rectilinear partition in a hierarchical flow.
+Set DBUPerIGU to M2 pitch 810.
+
+viaInitial starts at Sun Nov 19 14:14:00 2017
+viaInitial ends at Sun Nov 19 14:14:00 2017
+*** Begin netlist parsing (mem=328.5M) ***
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'top.syn.v'
+**WARN: (ENCVL-346):	Module 'control' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'mult' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'ps_reg' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'fs_reg' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'srama' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'sramb' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'mr_reg' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+
+*** Memory Usage v#3 (Current mem = 328.535M, initial mem = 88.223M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=328.5M) ***
+Top level cell is top.
+Loading view definition file from Default.view
+Reading vtvt_tsmc180 timing library '/project/linuxlab/cadence/vendors/VTVT/vtvt_tsmc180/Synopsys_Libraries/libs/vtvt_tsmc180.lib' ...
+Read 84 cells in library 'vtvt_tsmc180' 
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.37min, fe_real=1.52min, fe_mem=341.5M) ***
+**WARN: (ENCDB-2504):	Cell 'mult' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'control' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'mr_reg' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'sramb' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'srama' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'fs_reg' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'ps_reg' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+Found empty module (mult).
+Found empty module (control).
+Found empty module (mr_reg).
+Found empty module (sramb).
+Found empty module (srama).
+Found empty module (fs_reg).
+Found empty module (ps_reg).
+Starting recursive module instantiation check.
+No recursion found.
+Term dir updated for 0 vinsts of 7 cells.
+Building hierarchical netlist for Cell top ...
+*** Netlist is unique.
+** info: there are 93 modules.
+** info: there are 299 stdCell insts.
+
+*** Memory Usage v#3 (Current mem = 343.289M, initial mem = 88.223M) ***
+Generated pitch 1.215 in metal6 is different from 1.62 defined in technology file in preferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Input Pin Transition Delay as 0.1 ps.
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man ENCEXT-2773' for more detail.
+**WARN: (ENCEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man ENCEXT-2773' for more detail.
+**WARN: (ENCEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man ENCEXT-2773' for more detail.
+**WARN: (ENCEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man ENCEXT-2773' for more detail.
+**WARN: (ENCEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man ENCEXT-2773' for more detail.
+**WARN: (ENCEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man ENCEXT-2773' for more detail.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.08 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.08 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.08 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.08 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.07 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.03 will be used.
+Summary of Active RC-Corners : 
+ 
+ Analysis View: constraint_rule
+    RC-Corner Name        : default_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+    RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+*Info: initialize multi-corner CTS.
+CTE reading timing constraint file 'top.sdc' ...
+Current (total cpu=0:00:22.5, real=0:01:32, peak res=383.8M, current mem=437.4M)
+INFO (CTE): Constraints read successfully.
+WARNING (CTE-25): Line: 9 of File top.sdc : Skipped unsupported command: set_units
+
+
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=398.4M, current mem=450.9M)
+Current (total cpu=0:00:22.6, real=0:01:32, peak res=398.4M, current mem=450.9M)
+Total number of combinational cells: 60
+Total number of sequential cells: 20
+Total number of tristate cells: 4
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: buf_2 buf_1 buf_4 cd_8
+Total number of usable buffers: 4
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: inv_2 inv_1 inv_4
+Total number of usable inverters: 3
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: cd_12 cd_16
+Total number of identified usable delay cells: 2
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCLF-108            1  There is no overlap layer defined in any...
+WARNING   ENCEXT-2766          6  Sheet resistance for layer %s is not def...
+WARNING   ENCEXT-2773          6  The via resistance between layers %s and...
+WARNING   ENCVL-346            7  Module '%s' is instantiated in the netli...
+WARNING   ENCDB-2504           7  Cell '%s' is instantiated in the Verilog...
+*** Message Summary: 27 warning(s), 0 error(s)
+
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 0.972182741117 0.699995 10.0 10.0 10.0 10.0
+Snap core to left to manufacture grid: 9.9900.
+Snap core to bottom to manufacture grid: 9.9900.
+Snap core to right to manufacture grid: 9.9900.
+Snap core to top to manufacture grid: 9.9900.
+Adjusting Core to Left to: 10.5300. Core to Bottom to: 10.5300.
+Generated pitch 1.215 in metal6 is different from 1.62 defined in technology file in preferred direction.
+**WARN: (ENCFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> clearGlobalNets
+<CMD> globalNetConnect gnd! -type pgpin -pin gnd! -inst * -module {}
+<CMD> clearGlobalNets
+<CMD> globalNetConnect gnd! -type pgpin -pin gnd! -inst * -module {}
+<CMD> globalNetConnect vdd! -type pgpin -pin vdd! -inst * -module {}
+<CMD> clearGlobalNets
+<CMD> globalNetConnect gnd! -type pgpin -pin gnd! -inst * -module {}
+<CMD> globalNetConnect vdd! -type pgpin -pin vdd! -inst * -module {}
+<CMD> set sprCreateIeRingNets {}
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingWidth 1.0
+<CMD> set sprCreateIeRingSpacing 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -stacked_via_top_layer metal6 -type core_rings -jog_distance 0.81 -threshold 0.81 -nets {gnd! vdd!} -follow core -stacked_via_bottom_layer metal1 -layer {bottom metal1 top metal1 right metal2 left metal2} -width 0.45 -spacing 0.45 -offset 0.81
+
+The power planner created 8 wires.
+*** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 460.9M) ***
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 1 -spreadType center -spacing 0.81 -pin {clk reset}
+Successfully spread [2] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 460.9M).
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.27 -pinDepth 0.27 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 1 -spreadType center -spacing 0.81 -pin {clk reset}
+Successfully spread [2] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 460.9M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.27 -pinDepth 0.27 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 1 -spreadType center -spacing 0.81 -pin {clk reset}
+Successfully spread [2] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 460.9M).
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { metal1 metal6 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { metal1 metal6 } -nets { gnd! vdd! } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { metal1 metal6 }
+*** Begin SPECIAL ROUTE on Sun Nov 19 14:23:00 2017 ***
+SPECIAL ROUTE ran on directory: /home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2
+SPECIAL ROUTE ran on machine: linuxlab006.seas.wustl.edu (Linux 3.10.0-514.26.2.el7.x86_64 Xeon 3.20Ghz)
+
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSelectNet set to "gnd! vdd!"
+routeSpecial set to true
+srouteBlockPin set to "useLef"
+srouteBottomLayerLimit set to 1
+srouteBottomTargetLayerLimit set to 1
+srouteConnectConverterPin set to false
+srouteCrossoverViaBottomLayer set to 1
+srouteCrossoverViaTopLayer set to 6
+srouteFloatingStripeTarget set to "blockring padring ring stripe ringpin blockpin followpin"
+srouteFollowCorePinEnd set to 3
+srouteJogControl set to "preferWithChanges differentLayer"
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteRoutePowerBarPortOnBothDir set to true
+srouteStopBlockPin set to "nearestTarget"
+srouteTopLayerLimit set to 6
+srouteTopTargetLayerLimit set to 6
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 1072.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+Read in 12 layers, 6 routing layers, 0 overlap layer
+Read in 85 macros, 9 used
+Read in 9 components
+  9 core components: 9 unplaced, 0 placed, 0 fixed
+Read in 2 physical pins
+  2 physical pins: 0 unplaced, 2 placed, 0 fixed
+Read in 2 nets
+Read in 2 special nets, 2 routed
+Read in 20 terminals
+2 nets selected.
+
+Begin power routing ...
+Bad via found: M1_N
+Bad via found: M1_P
+Bad via found: M1_POLY
+Bad via found: NTAP
+**WARN: (ENCSR-1234):	Find 4 vias whose layer defination is incorrect before power routing.
+**WARN: (ENCSR-1254):	Cannot find any block pin of net vdd!. Check netlist, or change option to include the pin.
+**WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net vdd!. Change routing area or layer to include the expected pin, or check netlist, or change port class in LEF file.
+Type 'man ENCSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net vdd!. Check net list, or change port class in LEF file, or change option to include pin in given range.
+**WARN: (ENCSR-1254):	Cannot find any block pin of net gnd!. Check netlist, or change option to include the pin.
+**WARN: (ENCSR-1256):	Cannot find any CORE class pad pin of net gnd!. Change routing area or layer to include the expected pin, or check netlist, or change port class in LEF file.
+Type 'man ENCSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net gnd!. Check net list, or change port class in LEF file, or change option to include pin in given range.
+CPU time for FollowPin 0 seconds
+CPU time for FollowPin 0 seconds
+Bad via found: M1_N
+Bad via found: M1_P
+Bad via found: M1_POLY
+Bad via found: NTAP
+**WARN: (ENCSR-1234):	Find 4 vias whose layer defination is incorrect after power routing.
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 38
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 19
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 1078.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 12 via definition ...
+ Updating DB with 2 io pins ...Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+
+
+sroute post-processing starts at Sun Nov 19 14:23:00 2017
+The viaGen is rebuilding shadow vias for net gnd!.
+sroute post-processing ends at Sun Nov 19 14:23:00 2017
+
+sroute post-processing starts at Sun Nov 19 14:23:00 2017
+The viaGen is rebuilding shadow vias for net vdd!.
+sroute post-processing ends at Sun Nov 19 14:23:00 2017
+sroute: Total CPU time used = 0:0:0
+sroute: Total Real time used = 0:0:0
+sroute: Total Memory used = 6.30 megs
+sroute: Total Peak Memory used = 463.18 megs
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign
+*** Starting placeDesign default flow ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (ENCDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.14311 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Mode: 90nm
+# Analysis Mode: MMMC non-OCV
+# Extraction Mode: default
+# Delay Calculation Options: engine=aae SIAware=false(opt_signoff)
+# Switching Delay Calculation Engine to AAE
+#################################################################################
+Calculate delays in Single mode...
+Topological Sorting (CPU = 0:00:00.0, MEM = 480.0M, InitMEM = 480.0M)
+siFlow : Timing analysis mode is single, using late cdB files
+AAE_MTTC: End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+AAE_THRD: End delay calculation. (MEM=622.574 CPU=0:00:00.0 REAL=0:00:00.0)
+*** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 622.6M) ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+All-RC-Corners-Per-Net-In-Memory is turned ON...
+Updating netlist
+
+*summary: 2 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+*** Starting "NanoPlace(TM) placement v#1 (mem=614.5M)" ...
+**WARN: (ENCTS-403):	Delay calculation was forced to extrapolate table data outside of the characterized range. In some cases, extrapolation can reduce the accuracy of the delay calculation. You can enable more detailed reporting of these cases by enabling the command 'setDelayCalMode -reportOutBound true'.
+Type 'man ENCTS-403' for more detail.
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.0 mem=614.5M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.1 mem=614.5M) ***
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (ENCSP-9042):	Scan chains were not defined, -ignoreScan option will be ignored.
+Define the scan chains before using this option.
+Type 'man ENCSP-9042' for more detail.
+#std cell=297 (0 fixed + 297 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=332 #term=918 #term/net=2.77, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=2
+stdCell: 297 single + 0 double + 0 multi
+Total standard cell length = 2.9395 (mm), area = 0.0333 (mm^2)
+**Info: (ENCSP-307): Design contains fractional 1 cell.
+Average module density = 0.700.
+Density for the design = 0.700.
+       = stdcell_area 3629 sites (33334 um^2) / alloc_area 5184 sites (47617 um^2).
+Pin Density = 0.253.
+            = total # of pins 918 / total Instance area 3629.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 5.443e+02 (5.39e+02 5.36e+00)
+              Est.  stn bbox = 8.211e+02 (8.13e+02 8.31e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 591.6M
+Iteration  2: Total net bbox = 5.443e+02 (5.39e+02 5.36e+00)
+              Est.  stn bbox = 8.211e+02 (8.13e+02 8.31e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 591.6M
+Iteration  3: Total net bbox = 4.717e+02 (4.63e+02 8.68e+00)
+              Est.  stn bbox = 8.832e+02 (8.69e+02 1.41e+01)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 591.6M
+Iteration  4: Total net bbox = 1.606e+03 (7.62e+02 8.44e+02)
+              Est.  stn bbox = 2.781e+03 (1.41e+03 1.37e+03)
+              cpu = 0:00:00.2 real = 0:00:01.0 mem = 591.6M
+Iteration  5: Total net bbox = 2.094e+03 (9.33e+02 1.16e+03)
+              Est.  stn bbox = 3.719e+03 (1.80e+03 1.92e+03)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 591.6M
+Iteration  6: Total net bbox = 3.187e+03 (1.73e+03 1.46e+03)
+              Est.  stn bbox = 4.970e+03 (2.65e+03 2.32e+03)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 591.6M
+Iteration  7: Total net bbox = 5.941e+03 (3.45e+03 2.49e+03)
+              Est.  stn bbox = 7.708e+03 (4.34e+03 3.36e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 591.6M
+Iteration  8: Total net bbox = 6.604e+03 (3.77e+03 2.84e+03)
+              Est.  stn bbox = 8.333e+03 (4.63e+03 3.70e+03)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 594.6M
+Iteration  9: Total net bbox = 6.604e+03 (3.77e+03 2.84e+03)
+              Est.  stn bbox = 8.333e+03 (4.63e+03 3.70e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 594.6M
+*** cost = 6.604e+03 (3.77e+03 2.84e+03) (cpu for global=0:00:01.0) real=0:00:02.0***
+Info: 0 clock gating cells identified, 0 (on average) moved
+Core Placement runtime cpu: 0:00:01.0 real: 0:00:02.0
+**WARN: (ENCSP-9025):	No scan chain specified/traced.
+Type 'man ENCSP-9025' for more detail.
+**Info: (ENCSP-307): Design contains fractional 1 cell.
+*** Starting refinePlace (0:01:31 mem=565.2M) ***
+Total net length = 6.604e+03 (3.767e+03 2.838e+03) (ext = 4.513e+02)
+Move report: Detail placement moves 297 insts, mean move: 4.87 um, max move: 44.93 um
+	Max move on inst (B_REG/B_reg[16]): (117.20, 115.64) --> (98.01, 89.91)
+	Runtime: CPU: 0:00:00.5 REAL: 0:00:00.0 MEM: 565.2MB
+Summary Report:
+Instances move: 297 (out of 297 movable)
+Mean displacement: 4.87 um
+Max displacement: 44.93 um (Instance: B_REG/B_reg[16]) (117.202, 115.645) -> (98.01, 89.91)
+	Length: 19 sites, height: 1 rows, site name: CoreSite, cell type: dp_1
+Total net length = 5.980e+03 (3.029e+03 2.952e+03) (ext = 4.698e+02)
+Runtime: CPU: 0:00:00.5 REAL: 0:00:00.0 MEM: 565.2MB
+*** Finished refinePlace (0:01:31 mem=565.2M) ***
+Total net length = 5.966e+03 (2.975e+03 2.991e+03) (ext = 4.682e+02)
+*** End of Placement (cpu=0:00:02.0, real=0:00:03.0, mem=565.2M) ***
+**Info: (ENCSP-307): Design contains fractional 1 cell.
+default core: bins with density >  0.75 = 16.7 % ( 1 / 6 )
+Density distribution unevenness ratio = 3.442%
+*** Free Virtual Timing Model ...(mem=565.2M)
+Starting IO pin assignment...
+Completed IO pin assignment.
+Starting congestion repair ...
+*** Starting trialRoute (mem=565.2M) ***
+
+There are 0 guide points passed to trialRoute for fixed pins.
+There are 0 guide points passed to trialRoute for pinGroup/netGroup/pinGuide pins.
+Options:  -noPinGuide
+
+
+Phase 1a-1d Overflow: 0.00% H + 0.00% V (0:00:00.0 566.2M)
+
+Overflow: 0.00% H + 0.00% V (0:00:00.0 567.2M)
+
+Phase 1l Overflow: 0.00% H + 0.00% V (0:00:00.0 575.2M)
+
+
+Congestion distribution:
+
+Remain	cntH		cntV
+--------------------------------------
+--------------------------------------
+  3:	0	 0.00%	3	 0.22%
+  4:	0	 0.00%	4	 0.30%
+  5:	1342	100.00%	1335	99.48%
+
+
+Total length: 8.906e+03um, number of vias: 1904
+M1(H) length: 0.000e+00um, number of vias: 916
+M2(V) length: 3.442e+03um, number of vias: 761
+M3(H) length: 4.102e+03um, number of vias: 227
+M4(V) length: 1.362e+03um, number of vias: 0
+M5(H) length: 0.000e+00um, number of vias: 0
+M6(V) length: 0.000e+00um
+
+Peak Memory Usage was 575.2M 
+*** Finished trialRoute (cpu=0:00:00.0 mem=575.2M) ***
+
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+describeCongestion: hCong = 0.00 vCong = 0.00
+Trial Route Overflow 0.000000(H) 0.000000(V).
+Start repairing congestion with level 1.
+Skipped repairing congestion.
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 2, real = 0: 0: 3, mem = 565.2M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCTS-403            1  Delay calculation was forced to extrapol...
+WARNING   ENCDC-1629           1  The default delay limit was set to %d. T...
+WARNING   ENCSP-9025           1  No scan chain specified/traced.          
+WARNING   ENCSP-9042           1  Scan chains were not defined, -ignoreSca...
+*** Message Summary: 4 warning(s), 0 error(s)
+
+
+*** Memory Usage v#3 (Current mem = 565.191M, initial mem = 88.223M) ***
+*** Message Summary: 38 warning(s), 0 error(s)
+
+--- Ending "Encounter" (totcpu=0:03:57, real=0:33:01, mem=565.2M) ---

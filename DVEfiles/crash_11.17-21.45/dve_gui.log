@@ -1,0 +1,77 @@
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+Warning: [DVAP006] 
+No source information available for object.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+Warning: [DVAP006] 
+No source information available for object.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+Warning: [DVAP006] 
+No source information available for object.
+Warning: [DVAP006] 
+No source information available for object.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+The file '/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-1/top.vcd' was opened successfully.
+---------------------------------------------
+
+The tool has just exited abnormally:
+
+
+Release = 'J-2014.12-SP1-1'  Architecture = 'linux'  Program = 'DVE'
+
+'162625977 162653166 162655485'
+
+---------------------------------------------
+=======================DVE Context and Call Stack=========================
+Command line: /project/linuxlab/synopsys/vcs_mx/gui/dve/linux/bin/dve.exe
+
+--- Stack trace follows:
+[Thread debugging using libthread_db enabled]
+[New Thread 0x571d5b40 (LWP 12731)]
+0x55577430 in __kernel_vsyscall ()
+
+Thread 2 (Thread 0x571d5b40 (LWP 12731)):
+#0  0x55577430 in __kernel_vsyscall ()
+#1  0x56382874 in pthread_cond_timedwait@@GLIBC_2.3.2 () from /lib/libpthread.so.0
+#2  0x0a4b6561 in ?? ()
+#3  0x0a4b6a14 in QThread::msleep(unsigned long) ()
+#4  0x08c085f2 in ag::dveXThread::run() ()
+#5  0x0a4b6733 in QThreadInstance::start(void*) ()
+#6  0x5637eb2c in start_thread () from /lib/libpthread.so.0
+#7  0x56ce10ae in clone () from /lib/libc.so.6
+
+Thread 1 (Thread 0x56dd9300 (LWP 12675)):
+#0  0x55577430 in __kernel_vsyscall ()
+#1  0x56ca1f0b in waitpid () from /lib/libc.so.6
+#2  0x56c27a5e in do_system () from /lib/libc.so.6
+#3  0x56c27e65 in system () from /lib/libc.so.6
+#4  0x56386adb in system () from /lib/libpthread.so.0
+#5  0x557078eb in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e639d2928478c79b3f673f99203bcf8be64600612100082236bffb2007f1e0ef9 () from /project/linuxlab/synopsys/vcs_mx/linux/lib/liberrorinf.so
+#6  0x55707f19 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e81c34e9ac4c8988ef4a6e067b3aa9271e9f15440f9e8f69ebc77e2fd65860faa () from /project/linuxlab/synopsys/vcs_mx/linux/lib/liberrorinf.so
+#7  0x55708ba7 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313efba706aab251478fa49e66610e453774633a6c152e7ef778f2202cda681f3d4e () from /project/linuxlab/synopsys/vcs_mx/linux/lib/liberrorinf.so
+#8  0x5570121c in SNPSle_d35ca1ff70d465c2b9b1a72eee90a506fdd009d3de3db1de () from /project/linuxlab/synopsys/vcs_mx/linux/lib/liberrorinf.so
+#9  0x09b1e392 in ag::logErrorMessage(ag::errorType, QString const&, bool) ()
+#10 0x09b1ecfd in ?? ()
+#11 0x56c1b649 in __run_exit_handlers () from /lib/libc.so.6
+#12 0x56c1b6cd in exit () from /lib/libc.so.6
+#13 0x08c4fcbb in VCS_EXIT ()
+#14 0x08d0883d in SigHandler ()
+#15 <signal handler called>
+#16 0x55577430 in __kernel_vsyscall ()
+#17 0x56cd76f1 in select () from /lib/libc.so.6
+#18 0x0a47e8c5 in QEventLoop::processEvents(unsigned int) ()
+#19 0x08c4e8dd in ag::ovaEventLoop::processEvents(unsigned int) ()
+#20 0x0a4cde88 in QEventLoop::enterLoop() ()
+#21 0x0a4cde14 in QEventLoop::exec() ()
+#22 0x08c4e287 in run_cci_event_loop ()
+#23 0x08c0974b in ag::ovaAppInst::enterEventLoop(int, char**) ()
+#24 0x089041c0 in main ()
+No context available
+==========================================================================

@@ -1,0 +1,65 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "top_tb": {
+            "W0eJz_d": {
+                "archive": "archive.15/_19698_archive_1.a",
+                "bytes": 31644,
+                "mod": "top_tb",
+                "mode": 4,
+                "out": "W0eJz_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "archive": "archive.15/_19698_archive_1.a",
+                "bytes": 7110,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "out": "amcQw_d.o"
+            }
+        }
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "top_tb"
+    ],
+    "CompileProcesses": [
+        "cgproc.19698.json"
+    ],
+    "NameTable": {
+        "top_tb": [
+            "top_tb",
+            "W0eJz",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 67175
+    },
+    "Misc": {
+        "cwd": "/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2/simv.daidir",
+        "csrc_abs": "/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2/csrc",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.15"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "CompileStatus": "Successful",
+    "PEModules": [],
+    "stat": {
+        "nMops": 1907
+    }
+}

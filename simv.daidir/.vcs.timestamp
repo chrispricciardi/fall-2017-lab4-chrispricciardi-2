@@ -1,0 +1,178 @@
+0 
+38
++itf+/project/linuxlab/synopsys/vcs_mx/amd64/lib/vcsdp.tab
++lint=all,noVCDE
++v2k
++vcsd
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/project/linuxlab/synopsys/vcs_mx/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=
+-Mobjects= /project/linuxlab/synopsys/vcs_mx/amd64/lib/libvirsim.so /project/linuxlab/synopsys/vcs_mx/amd64/lib/liberrorinf.so /project/linuxlab/synopsys/vcs_mx/amd64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/project/linuxlab/synopsys/vcs_mx/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/project/linuxlab/synopsys/vcs_mx/include
+-full64
+-gen_obj
+-picarchive
+-pp_used
+-timescale=1ns/10ps
+/project/linuxlab/synopsys/vcs_mx/amd64/bin/vcs1
+a_reg.v
+adder.v
+b_reg.v
+control.v
+fs_reg.v
+mr_reg.v
+mult.v
+ps_reg.v
+srama.v
+sramb.v
+top.v
+top_tb.v
+116
+sysc_uni_pwd=/home/warehouse/c.ricciardi/GitHub/fall-2017-lab4-chrispricciardi-2
+_LMFILES_=/project/linuxlab/modules/ese461
+XILINX_VIVADO_HLS=/project/linuxlab/xilinx/xilinx/Vivado_HLS/Vivado_HLS
+XILINX_VIVADO_DOCNAV=/project/linuxlab/xilinx/xilinx/Vivado_HLS/DocNav
+XILINX_VIVADO=/project/linuxlab/xilinx/xilinx/Vivado/Vivado
+XILINXD_LICENSE_FILE=27017@licensing02.seas.wustl.edu
+XDG_MENU_PREFIX=xfce-
+XDG_DATA_DIRS=/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=XFCE
+XDG_CONFIG_DIRS=/etc/xdg
+VTVT=/project/linuxlab/cadence/vendors/VTVT
+VNCDESKTOP=TurboVNC: linuxlab012.seas.wustl.edu:9 (c.ricciardi)
+VMR_MODE_FLAG=64
+VGL_COMPRESS=0
+VERA_HOME=/project/linuxlab/synopsys/vera
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/project/linuxlab/synopsys/vcs_mx
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=amd64
+UNAME=/bin/uname
+TOOL_HOME=/project/linuxlab/synopsys/vcs_mx/amd64
+SYNOPSYS=/project/linuxlab/synopsys
+SSH_AUTH_SOCK=/tmp/ssh-2GOOoHEj2D1p/agent.22833
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=22834
+SPB=/project/linuxlab/cadence/spb
+SNPSLMD_LICENSE_FILE=27032@licensing02.seas.wustl.edu:/project/linuxlab/synopsys/vcs_mx/flexlm//license.dat
+SKIP_CDS_DIALOG=1
+SGE_TASK_STEPSIZE=undefined
+SGE_TASK_LAST=undefined
+SGE_TASK_ID=undefined
+SGE_TASK_FIRST=undefined
+SGE_STDOUT_PATH=/home/warehouse/c.ricciardi/equeue/spool/11-17-2017_11-55-31/LinuxDesktop.o82470
+SGE_STDIN_PATH=/dev/null
+SGE_STDERR_PATH=/home/warehouse/c.ricciardi/equeue/spool/11-17-2017_11-55-31/LinuxDesktop.o82470
+SGE_ROOT=/project/linuxlab/sge
+SGE_O_WORKDIR=/home/warehouse/c.ricciardi/equeue/spool/11-17-2017_11-55-31
+SGE_O_SHELL=/sbin/nologin
+SGE_O_PATH=/sbin:/bin:/usr/sbin:/usr/bin
+SGE_O_MAIL=/var/mail/c.ricciardi
+SGE_O_LOGNAME=c.ricciardi
+SGE_O_HOST=acadeq
+SGE_O_HOME=/home/warehouse/c.ricciardi
+SGE_CWD_PATH=/home/warehouse/c.ricciardi/equeue/spool/11-17-2017_11-55-31
+SGE_CLUSTER_NAME=ENGINEERING
+SGE_CELL=LINUXLAB
+SGE_BINARY_PATH=/project/linuxlab/sge/bin/lx-amd64
+SGE_ARCH=lx-amd64
+SGE_ACCOUNT=sge
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/22801,unix/unix:/tmp/.ICE-unix/22801
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RESTARTED=0
+REQUEST=LinuxDesktop
+REQNAME=LinuxDesktop
+RC=/project/linuxlab/cadence/rc
+QUEUE=vnc.q
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PERL_MM_OPT=INSTALL_BASE=/home/warehouse/c.ricciardi/perl5
+PERL_MB_OPT=--install_base /home/warehouse/c.ricciardi/perl5
+PERL_LOCAL_LIB_ROOT=:/home/warehouse/c.ricciardi/perl5
+PERL5LIB=/home/warehouse/c.ricciardi/perl5/lib/perl5:
+OVA_UUM=0
+OSUcells=/project/linuxlab/cadence/vendors/OSU/OSUstdcell/cadence
+OA_UNSUPPORTED_PLAT=linux_rhel50_gcc44x
+NSLOTS=1
+NQUEUES=1
+NHOSTS=1
+NCSU_CDK_DIR=/project/linuxlab/cadence/CDK/ncsu
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/act/modulefiles:/project/linuxlab/modules
+MODS=/project/linuxlab/cadence/CDK/ncsu/models/spectre/nom
+MMSIMHOME=/project/linuxlab/cadence/mmsim
+MLM_LICENSE_FILE=/project/linuxlab/matlab/license.dat
+MGLS_LICENSE_FILE=27026@licensing02.seas.wustl.edu
+MFLAGS=
+MENTOR=/project/linuxlab/mentor
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=ese461
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+JOB_SCRIPT=/project/linuxlab/sge/LINUXLAB/spool/linuxlab012/job_scripts/82470
+JOB_NAME=LinuxDesktop
+INCISIVE=/project/linuxlab/cadence/incisive
+IC=/project/linuxlab/cadence/ic
+HISTCONTROL=ignoredups
+GPG_AGENT_INFO=/home/warehouse/c.ricciardi/.gnupg/S.gpg-agent:22836:1
+GLADE_PIXMAP_PATH=:
+GLADE_MODULE_PATH=:
+GLADE_CATALOG_PATH=:
+EXT=/project/linuxlab/cadence/ext
+ETS=/project/linuxlab/cadence/ets
+ENVIRONMENT=BATCH
+EDI=/project/linuxlab/cadence/edi
+DESKTOP_SESSION=xfce
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-0cdzfLyAJv,guid=838a7572ac7634cb8fc15f545a0f22a5
+CVS_RSH=ssh
+CONFRML=/project/linuxlab/cadence/confrml
+COLORTERM=xfce4-terminal
+CDS_Netlisting_Mode=Analog
+CDK_DIR=/project/linuxlab/cadence/CDK/ncsu
+CADENCE=/project/linuxlab/cadence
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+ASSURA=/project/linuxlab/cadence/assura
+ARM=/project/linuxlab/synopsys/arm
+ARC=lx-amd64
+ANLS=/project/linuxlab/cadence/anls
+0
+13
+1511048228 top_tb.v
+1511056398 top.v
+1511055823 mr_reg.v
+1511054645 b_reg.v
+1511056177 a_reg.v
+1511048042 sramb.v
+1511048029 srama.v
+1510983718 fs_reg.v
+1511060623 ps_reg.v
+1511060284 adder.v
+1511059194 mult.v
+1511060591 control.v
+1429846701 /project/linuxlab/synopsys/vcs_mx/amd64/lib/vcsdp.tab
+4
+0 
+1429847291 /project/linuxlab/synopsys/vcs_mx/amd64/lib/libvirsim.so
+1429846793 /project/linuxlab/synopsys/vcs_mx/amd64/lib/liberrorinf.so
+1429846784 /project/linuxlab/synopsys/vcs_mx/amd64/lib/libsnpsmalloc.so
+1511060628 simv.daidir
